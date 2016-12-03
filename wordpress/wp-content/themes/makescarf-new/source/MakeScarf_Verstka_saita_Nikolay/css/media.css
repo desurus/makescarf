@@ -1,0 +1,2265 @@
+﻿@media (min-width: 992px ) and (max-width: 1200px) {
+
+     
+	/****** main page ******/
+	 
+	.text_ever_slider {
+        font: 28pt "Light";
+    } 
+	.video_bl_prod iframe {
+        height: 500px;
+    }
+	.descr_lib_bl p {
+        margin: 15px !important;
+    }
+	.lifted_2 {
+		margin: 55px auto;
+		position: relative;
+		width: 270px;
+    }
+	.img_lib_bl {
+        padding: 20px;
+    }
+	.titlle_read_libr {
+        font: 30px "Bold";
+    }
+	.rev_user_about p {
+        padding: 35px 50px;
+    }
+	.bl_ins {
+		height: 240px;
+		margin-bottom: 30px;
+    }
+	.footer_menu > li {
+        margin: 0 10px;
+    }
+	
+	/******************/
+	
+	/**** WHOLESALERS *****/
+	
+	.text_ever_slider_who {
+		font: 28pt "Light";
+		left: 70px;
+    }
+	
+	/**********************/
+	
+	/**** start page ******/
+	
+	.show_bl {
+        width: 87%;
+    }
+	.mod_t {
+        line-height: 20px!important;
+	}
+	.under_t {
+	    line-height: 17px!important;
+	}
+	.back_tr {
+        padding: 15px 14px;
+    }
+	
+	/***********************/
+	
+	
+	/**** about page *******/
+	
+	.info_ab_us p {
+        margin-bottom: 10px;
+    }
+	
+	/***********************/
+	
+	
+	/**** library third ***/
+	
+	
+	/**********************/
+	
+	
+	/**** ideas page ******/
+	
+	/*********************/
+	
+	
+	/*** help page ********/
+	
+	
+	
+	/*********************/
+	
+	
+	/**** cart page *******/
+	
+	.bl_font a {
+		font: 26px "Zapfino-reg";
+		height: 60px;
+		word-spacing: -8px;
+    }
+	.bl_font a span {
+        top: 15px;
+	}
+	.list_hex {
+        top: 5px;
+    }
+	.bl_select select {
+        top: 20px;
+    }
+	.snip_num_good {
+       top: 16px;
+    }
+	.bl_price p {
+       top: 25px;
+	}
+	.enter_cupon_bl input[type="text"] {
+	    margin-left: 12px;
+	}
+	.appl_coup {
+        margin: 10px 0 10px 12px;
+    }
+	
+	/**********************/
+ 
+
+}
+
+@media (min-width: 768px ) and (max-width: 992px) {
+
+     
+	/**** main page ***/
+	
+	.padding_logo {
+        padding: 20px 0;
+    }
+	.social_bl {
+        top: 7px;
+    }
+	.text_logo a {
+        font: 28pt "Light";
+    }
+	.top_menu > li a {
+        font: 13pt "Light";
+    }
+	.text_ever_slider {
+        font: 22pt "Light";
+		top: 10px;
+    } 
+	.title_video {
+		font: 35px "Light";
+		margin: 10px 0;
+    }
+	.video_bl_prod iframe {
+        height: 400px;
+    }
+	.samples_bl {
+        height: 610px;
+    }
+	.descr_scarves {
+        margin-top: 30px;
+    }
+	.title_scr {
+        font: 28px "Light";
+    }
+	.full_inf_scr {
+		font: 18px "Light";
+		margin-top: 20px;
+    }
+	.title_reviews {
+        font: 35px "Light";
+    }
+	.descr_lib_bl p {
+        margin: 15px !important;
+    }
+	.lifted_2 {
+		margin: 55px auto;
+		position: relative;
+		width: 270px;
+    }
+	.img_lib_bl {
+        padding: 20px;
+    }
+	.titlle_read_libr {
+        font: 30px "Bold";
+    }
+	.block_read_bout {
+        height: 308px;
+        padding: 13px;
+    }
+	.rev_user_about p {
+        padding: 15px 10px;
+    }
+	.name_under_quest {
+        font: 25px "Light";
+    }
+	.bl_ins {
+		height: 200px;
+		margin-bottom: 30px;
+    }
+	.footer_menu > li {
+        margin: 0 10px;
+    }
+	.footer_menu > li a {
+        font: 13pt "Light";
+    }
+	.logo_footer {
+        font: 28pt "Light";
+    }
+	.group_soc_foot {
+		margin-top: 6px;
+	}
+	
+	/******************/
+	
+	/**** WHOLESALERS *****/
+	
+	.text_ever_slider_who {
+		font: 22pt "Light";
+		left: 70px;
+    }
+	.quote_bl {
+		height: 664px;
+		margin-top:30px;
+		padding: 30px 0;
+    }
+	.list_quotes p {
+		font: 16px "Light";
+		margin-bottom: 20px;
+    }
+	.lifted_3 {
+		margin: 35px auto 35px;
+		width: 340px;
+    }
+	.some_items {
+		margin-top: 40px;
+	}
+	.descr_ever_item p {
+		font: 16px "Light";
+		margin: 10px 0 0;
+	    line-height: 18px;
+    }
+	
+	/**********************/
+	
+	/**** start page ******/
+	
+	.show_bl {
+        width: 100%;
+    }
+	.mod_t {
+        line-height: 20px!important;
+	}
+	.under_t {
+	    line-height: 17px!important;
+	}
+	.back_tr {
+        padding: 15px 14px;
+    }
+	#colorPicker {
+		margin: 30px auto 0;
+		width: 100%;
+    }
+	.title_ever_st_ch {
+        font: 16px "Light";
+    }   
+    .title_ever_st_ch img {
+        margin-right: 5px;
+    }
+	.title_par_of_scr {
+        font: 16px "Light";
+    }
+	.list_other_ch_bl > li {
+		display: block;
+	}
+	.area_other_instr {
+        font: 10px "Light";
+        text-indent: 5px;
+    }
+	
+	/***********************/
+	
+	/**** about page *******/
+	
+	.info_ab_us p {
+	    font: 14px "Light";
+        margin-bottom: 10px;
+    }
+	
+	/***********************/
+	
+	/*** help page ********/
+	
+	
+	
+	/*********************/
+	
+	
+	/**** contact page ***/
+	
+	
+	
+	/*********************/
+	
+	
+	/**** cart page *******/
+	
+	.bl_font a {
+		font: 21px "Zapfino-reg";
+		height: 60px;
+		word-spacing: -8px;
+    }
+	.bl_font a span {
+        top: 17px;
+	}
+	.list_hex {
+        top: 5px;
+    }
+	.bl_select select {
+        top: 20px;
+    }
+	.snip_num_good {
+       top: 16px;
+    }
+	.bl_price p {
+       top: 25px;
+	}
+	.enter_cupon_bl input[type="text"] {
+	    margin-left: 10px;
+		width: 130px;
+	}
+	.appl_coup {
+        margin: 10px 0 10px 12px;
+		width: 128px;
+    }
+	
+	/**********************/
+
+}
+ 
+
+@media (min-width: 680px ) and (max-width: 767px) {
+
+     
+	/**** main page ***/
+	
+	.navbar-header {
+	    background: #c9b899 ;
+	}
+	.top_menu > li:first-child a {
+		padding-left:15px;
+	}
+	.navbar-nav > li:last-child {
+		float: none;
+	}
+	.resset_pad {
+        padding: 0 10px;
+    }
+	.bl_logo {
+        text-align: center;
+    }
+	.padding_logo {
+        padding: 20px 0;
+    }
+	.social_bl {
+        top: 7px;
+		float: none;
+		text-align: center;
+    }
+	.text_logo a {
+        font: 28pt "Light";
+    }
+	.top_menu > li a {
+        font: 13pt "Light";
+    }
+	.text_ever_slider {
+        font: 18pt "Light";
+		top: 10px;
+    } 
+	.title_video {
+		font: 35px "Light";
+		margin: 10px 0;
+    }
+	.video_bl_prod iframe {
+        height: 360px;
+    }
+	.samples_bl {
+        height: 460px;
+    }
+	.descr_scarves {
+        margin-top: 30px;
+    }
+	.title_scr {
+        font: 28px "Light";
+    }
+	.full_inf_scr {
+		font: 18px "Light";
+		margin-top: 20px;
+    }
+	.title_reviews {
+        font: 35px "Light";
+    }
+	.descr_lib_bl p {
+        margin: 15px !important;
+    }
+	.lifted_2 {
+		margin: 55px auto;
+		position: relative;
+		width: 270px;
+    }
+	.img_lib_bl {
+        padding: 20px;
+    }
+	.titlle_read_libr {
+        font: 30px "Bold";
+    }
+	.block_read_bout {
+        height: 308px;
+        padding: 13px;
+    }
+	.rev_user_about p {
+        padding: 15px 10px;
+    }
+	.name_under_quest {
+        font: 25px "Light";
+    }
+	.bl_ins {
+		height: 200px;
+		margin-bottom: 30px;
+    }
+	.any_bl_lib table,.any_bl_lib table tbody,.any_bl_lib table tbody tr{
+	    display: block;
+	}
+	.quest_photo img {
+		display: inline;
+	}
+	.footer_menu > li {
+        margin: 0 8px;
+    }
+	.footer_menu > li a {
+        font: 12pt "Light";
+    }
+	.logo_footer {
+        font: 28pt "Light";
+    }
+	.group_soc_foot {
+		margin-top: 6px;
+	}
+	.foot_social {
+        text-align: center;  
+    }
+	.owl-buttons {
+	    display: none;
+	}
+	
+	/******************/
+	
+	
+	/**** WHOLESALERS *****/
+	
+	/*----- popup -----*/
+	
+	.popup_answ_site {
+		left: 50%;
+		margin: -320px 0 0 -300px;
+		padding: 40px 35px;
+		position: fixed;
+		top: 50%;
+		width: 600px;
+		z-index: 900;
+    }
+	.fill_aplic {
+        font: 16px "Light";
+    }
+	.send_answ_form textarea {
+        height: 180px;
+    }
+	
+	/*-----------------*/
+	
+	.text_ever_slider_who {
+		font: 18pt "Light";
+		left: 70px;
+    }
+	.quote_bl {
+		height: 484px;
+		margin-top:30px;
+		padding: 30px 0;
+    }
+	.list_quotes p {
+		font: 16px "Light";
+		margin-bottom: 20px;
+    }
+	.lifted_3 {
+		margin: 35px auto 35px;
+		width: 340px;
+    }
+	.some_items {
+		margin-top: 40px;
+	}
+	.descr_ever_item p {
+		font: 16px "Light";
+		margin: 10px 0 0;
+	    line-height: 18px;
+    }
+	.ever_link_items {
+	    text-align: center;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.ever_link_items img {
+	    display: inline;
+		margin-top: 10px;
+	}
+	#owl-demo-2 {
+	    text-align: center;
+	}
+	#owl-demo-2 img {
+	    display: inline;
+	}
+	
+	/**********************/
+	
+	/**** start page ******/
+	
+	.show_bl {
+        width: 30%;
+    }
+	.mod_t {
+        line-height: 20px!important;
+	}
+	.under_t {
+	    line-height: 17px!important;
+	}
+	.back_tr {
+        padding: 15px 14px;
+    }
+	#colorPicker {
+		margin: 30px auto 0;
+		width: 30%;
+    }
+	.ever_steps_choose_left {
+        padding-bottom: 30px;
+    }
+	.part_of_scraf {
+	    margin: 30px 0;
+		padding: 20px 0 0 20px;
+	}
+	.title_ever_st_ch {
+        font: 22px "Light";
+		text-align: center;
+    }   
+    .title_ever_st_ch img {
+        margin-right: 5px;
+    }
+	.title_par_of_scr {
+        font: 16px "Light";
+    }
+	.list_other_ch_bl > li {
+		display: inline-block;
+	}
+	.area_other_instr {
+        font: 12px "Light";
+        text-indent: 15px;
+    }
+	.select_or_bl {
+		padding: 30px 0 0;
+		text-align: center;
+	}
+	.other_ch_bl {
+		margin: 20px auto 0;
+		width: 40%;
+	}
+	
+	/***********************/
+	
+	
+	/**** about page *******/
+	
+	.about_back_bl {
+		background: rgba(0, 0, 0, 0) url("../images/about/back_ab.jpg") no-repeat -700px top;
+		height: 538px;
+    }
+	
+	/***********************/
+	
+	
+	/**** ideas page ******/
+	
+	/*********************/
+	
+	/**** cart page *******/
+	
+	.bl_font a {
+		font: 20px "Zapfino-reg";
+		height: 60px;
+		word-spacing: -8px;
+    }
+	.bl_font a span {
+        top: 17px;
+	}
+	.list_hex {
+        top: 5px;
+    }
+	.bl_select select {
+        top: 20px;
+    }
+	.snip_num_good {
+       top: 16px;
+    }
+	.bl_price p {
+       top: 25px;
+	}
+	.border_cart {
+	    margin-bottom: 0;
+	}
+	.enter_cupon_bl {
+	    width: 19%;
+	}
+	.enter_cupon_bl {
+		padding: 4px;
+		text-align: left;
+    }
+	.appl_coup {
+        margin: 10px 0 0;
+    }
+	.total_amount_bl {
+        padding-top: 10px;
+    }
+	.list_add_anth_scr > li {
+		display: inline-block;
+		margin: 0 10px;
+    }
+	.lifted_anoter {
+        margin: 10px auto;
+    }
+	.enter_cupon_bl input[type="text"] {
+	    margin-left: 0px;
+		width: 130px;
+	}
+	.appl_coup {
+        margin: 10px 0 10px 0px;
+		width: 128px;
+    }
+	
+	/**********************/
+
+}
+
+
+@media (min-width: 560px ) and (max-width: 680px) {
+
+     
+	/**** main page ***/
+	
+	.navbar-header {
+	    background: #c9b899 ;
+	}
+	.top_menu > li:first-child a {
+		padding-left:15px;
+	}
+	.navbar-nav > li:last-child {
+		float: none;
+	}
+	.resset_pad {
+        padding: 0 10px;
+    }
+	.title_cr_uniq {
+        font: 20pt "Light";
+    }
+	.title_how_it_works {
+        font: 35px "Light";
+        margin-top: 20px;
+    }
+	.bl_logo {
+        text-align: center;
+    }
+	.padding_logo {
+        padding: 20px 0;
+    }
+	.social_bl {
+        top: 7px;
+		float: none;
+		text-align: center;
+    }
+	.text_logo a {
+        font: 28pt "Light";
+    }
+	.top_menu > li a {
+        font: 13pt "Light";
+    }
+	.under_questions_bl {
+		margin: 40px auto 0;
+	    width: 60%;
+    }
+	.text_ever_slider {
+        font: 16pt "Light";
+		top: 10px;
+    } 
+	.title_video {
+		font: 35px "Light";
+		margin: 10px 0;
+    }
+	.video_bl_prod iframe {
+        height: 360px;
+    }
+	.samples_bl {
+        height: 460px;
+    }
+	.descr_scarves {
+        margin-top: 30px;
+    }
+	.insta_block {
+        padding: 30px 0 40px;
+    }
+	.title_scr {
+        font: 28px "Light";
+    }
+	.full_inf_scr {
+		font: 18px "Light";
+		margin-top: 20px;
+    }
+	.title_reviews {
+        font: 35px "Light";
+    }
+	.descr_lib_bl p {
+        margin: 15px !important;
+    }
+	.lifted_2 {
+		margin: 55px auto;
+		position: relative;
+		width: 270px;
+    }
+	.img_lib_bl {
+        padding: 20px;
+    }
+	.titlle_read_libr {
+        font: 30px "Bold";
+    }
+	.block_read_bout {
+        height: 308px;
+        padding: 13px;
+    }
+	.rev_user_about p {
+        padding: 15px 10px;
+    }
+	.name_under_quest {
+        font: 25px "Light";
+    }
+	.bl_ins {
+		height: 200px;
+		margin-bottom: 30px;
+    }
+	.any_bl_lib table,.any_bl_lib table tbody,.any_bl_lib table tbody tr{
+	    display: block;
+	}
+	.quest_photo img {
+		display: inline;
+	}
+	.footer_menu > li {
+        margin: 0 8px;
+    }
+	.footer_menu > li a {
+        font: 12pt "Light";
+    }
+	.logo_footer {
+        font: 28pt "Light";
+    }
+	.group_soc_foot {
+		margin-top: 6px;
+	}
+	.foot_social {
+        text-align: center;  
+    }
+	.owl-buttons {
+	    display: none;
+	}
+	
+	/******************/
+	
+	/**** WHOLESALERS *****/
+	
+	/*----- popup -----*/
+	
+	.popup_answ_site {
+		left: 50%;
+		margin: -320px 0 0 -250px;
+		padding: 40px 35px;
+		position: fixed;
+		top: 50%;
+		width: 500px;
+		z-index: 900;
+    }
+	.fill_aplic {
+        font: 16px "Light";
+    }
+	.send_answ_form textarea {
+        height: 180px;
+    }
+	
+	/*-----------------*/
+	
+	.text_ever_slider_who {
+		font: 16pt "Light";
+		left: 70px;
+    }
+	.quote_bl {
+		height: 484px;
+		margin-top:30px;
+		padding: 30px 0;
+    }
+	.list_quotes p {
+		font: 16px "Light";
+		margin-bottom: 20px;
+    }
+	.lifted_3 {
+		margin: 35px auto 35px;
+		width: 340px;
+    }
+	.some_items {
+		margin-top: 40px;
+	}
+	.descr_ever_item p {
+		font: 16px "Light";
+		margin: 10px 0 0;
+	    line-height: 18px;
+    }
+	.ever_link_items {
+	    text-align: center;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.ever_link_items img {
+	    display: inline;
+		margin-top: 10px;
+	}
+	#owl-demo-2 {
+	    text-align: center;
+	}
+	#owl-demo-2 img {
+	    display: inline;
+	}
+	
+	/**********************/
+	
+	/**** start page ******/
+	
+	.show_bl {
+        width: 40%;
+    }
+	.mod_t {
+        line-height: 20px!important;
+	}
+	.under_t {
+	    line-height: 17px!important;
+	}
+	.back_tr {
+        padding: 15px 14px;
+    }
+	#colorPicker {
+		margin: 30px auto 0;
+		width: 40%;
+    }
+	.ever_steps_choose_left {
+        padding-bottom: 30px;
+    }
+	.part_of_scraf {
+	    margin: 30px 0;
+		padding: 20px 0 0 20px;
+	}
+	.title_ever_st_ch {
+        font: 22px "Light";
+		text-align: center;
+    }   
+    .title_ever_st_ch img {
+        margin-right: 5px;
+    }
+	.title_par_of_scr {
+        font: 16px "Light";
+    }
+	.list_other_ch_bl > li {
+		display: inline-block;
+	}
+	.area_other_instr {
+        font: 12px "Light";
+        text-indent: 15px;
+    }
+	.select_or_bl {
+		padding: 30px 0 0;
+		text-align: center;
+	}
+	.other_ch_bl {
+		margin: 20px auto 0;
+		text-align: center;
+	}
+	
+	/***********************/
+	
+	/**** about page *******/
+	
+	.about_back_bl {
+		background: rgba(0, 0, 0, 0) url("../images/about/back_ab.jpg") no-repeat -700px top;
+		height: 600px;
+    }
+	
+	/***********************/
+	
+	
+	/**** cart page *******/
+	
+	.bl_font a {
+		font: 20px "Zapfino-reg";
+		height: 80px;
+		word-spacing: -8px;
+    }
+	.list_hex li:first-child {
+		position: relative;
+		top: 0px;
+	}
+	.bl_font a span {
+        top: 17px;
+	}
+	.list_hex {
+        top: 15px;
+    }
+	.bl_select select {
+        top: 30px;
+    }
+	.snip_num_good {
+       top: 26px;
+    }
+	.bl_price p {
+       top: 25px;
+	}
+	.field_snip {
+		font: 12px "ubuntu";
+		height: 24px;
+		margin: 0 1px;
+		width: 30px;
+    }
+	.cart_count_minus, .cart_count_plus {
+        font: 20px "ubuntu";
+        top: 2px;
+    }
+	.border_cart {
+	    margin-bottom: 0;
+	}
+	.enter_cupon_bl {
+	    width: 190px;
+	}
+	.enter_cupon_bl {
+		padding: 10px 10px;
+		text-align: left;
+    }
+	.appl_coup {
+        margin: 10px 0 0;
+    }
+	.total_amount_bl {
+        padding-top: 10px;
+    }
+	.list_add_anth_scr > li {
+		display: inline-block;
+		margin: 0 10px;
+    }
+	.lifted_anoter {
+        margin: 10px auto;
+    }
+	.enter_cupon_bl input[type="text"] {
+	    margin-left: 20px;
+		width: 130px;
+	}
+	.appl_coup {
+        margin: 10px 0 10px 20px;
+		width: 128px;
+    }
+	
+	/**********************/
+
+}
+
+
+
+@media (min-width: 480px ) and (max-width: 560px) {
+
+     
+	/**** main page ***/
+	
+	.navbar-header {
+	    background: #c9b899 ;
+	}
+	.top_menu > li:first-child a {
+		padding-left:15px;
+	}
+	.navbar-nav > li:last-child {
+		float: none;
+	}
+	.resset_pad {
+        padding: 0 10px;
+    }
+	.title_cr_uniq {
+        font: 20pt "Light";
+    }
+	.carousel-control {
+		height: 65px;
+		top: 34%;
+		width: 35px;
+    }
+	.carousel-control.left img, .carousel-control.right img {
+		position: relative;
+		top: 13px;
+	}
+	.title_how_it_works {
+        font: 35px "Light";
+        margin-top: 20px;
+    }
+	.bl_logo {
+        text-align: center;
+    }
+	.padding_logo {
+        padding: 20px 0;
+    }
+	.social_bl {
+        top: 7px;
+		float: none;
+		text-align: center;
+    }
+	.text_logo a {
+        font: 28pt "Light";
+    }
+	.top_menu > li a {
+        font: 13pt "Light";
+    }
+	.under_questions_bl {
+		margin: 40px auto 0;
+	    width: 60%;
+    }
+	.text_ever_slider {
+        font: 16pt "Light";
+		top: 10px;
+    } 
+	.title_video {
+		font: 25px "Light";
+		margin: 10px 0;
+    }
+	.video_bl_prod iframe {
+        height: 300px;
+    }
+	.video_bl {
+		padding: 10px 0;
+		text-align: center;
+    }
+	.samples_bl {
+        height: 460px;
+    }
+	.descr_scarves {
+        margin-top: 30px;
+    }
+	.insta_block {
+        padding: 30px 0 40px;
+    }
+	.title_scr {
+        font: 28px "Light";
+    }
+	.full_inf_scr {
+		font: 15px "Light";
+		margin-top: 20px;
+    }
+	.title_reviews {
+        font: 25px "Light";
+    }
+	.round_img {
+		border-radius: 50%;
+		width: 100px;
+	}
+	.rev_user_about {
+		margin-left: 110px;
+		padding: 0 20px;
+	}
+	.descr_lib_bl p {
+        margin: 15px !important;
+    }
+	.lifted_2 {
+		margin: 55px auto;
+		position: relative;
+		width: 270px;
+    }
+	.img_lib_bl {
+        padding: 20px;
+    }
+	.titlle_read_libr {
+        font: 30px "Bold";
+    }
+	.block_read_bout {
+        height: 308px;
+        padding: 13px;
+    }
+	.rev_user_about p {
+        padding: 15px 10px;
+		line-height: 20px;
+    }
+	.name_under_quest {
+        font: 25px "Light";
+    }
+	.bl_ins {
+		height: 200px;
+		margin-bottom: 30px;
+    }
+	.any_bl_lib table,.any_bl_lib table tbody,.any_bl_lib table tbody tr{
+	    display: block;
+	}
+	.quest_photo img {
+		display: inline;
+	}
+	.footer_menu > li {
+        margin: 0 8px;
+    }
+	.footer_menu > li a {
+        font: 12pt "Light";
+    }
+	.logo_footer {
+        font: 28pt "Light";
+    }
+	.group_soc_foot {
+		margin-top: 6px;
+	}
+	.foot_social {
+        text-align: center;  
+    }
+	.owl-buttons {
+	    display: none;
+	}
+	
+	/******************/
+	
+	
+	/**** WHOLESALERS *****/
+	
+	/*----- popup -----*/
+	
+	.popup_answ_site {
+		left: 50%;
+		margin: -320px 0 0 -220px;
+		padding: 40px 35px;
+		position: fixed;
+		top: 50%;
+		width: 440px;
+		z-index: 900;
+    }
+	.fill_aplic {
+        font: 16px "Light";
+    }
+	.send_answ_form textarea {
+        height: 180px;
+    }
+	
+	/*-----------------*/
+	
+	.text_ever_slider_who {
+		font: 16pt "Light";
+		left: 70px;
+    }
+	.quote_bl {
+		height: 484px;
+		margin-top:30px;
+		padding: 30px 0;
+    }
+	.list_quotes p {
+		font: 16px "Light";
+		margin-bottom: 20px;
+    }
+	.lifted_3 {
+		margin: 35px auto 35px;
+		width: 340px;
+    }
+	.some_items {
+		margin-top: 40px;
+	}
+	.descr_ever_item p {
+		font: 16px "Light";
+		margin: 10px 0 0;
+	    line-height: 18px;
+    }
+	.ever_link_items {
+	    text-align: center;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.ever_link_items img {
+	    display: inline;
+		margin-top: 10px;
+	}
+	#owl-demo-2 {
+	    text-align: center;
+	}
+	#owl-demo-2 img {
+	    display: inline;
+	}
+	.carousel-control_who {
+		height: 65px;
+		top: 34%;
+		width: 35px;
+    }
+	.carousel-control_who.left img, .carousel-control_who.right img {
+		position: relative;
+		top: 13px;
+    }
+	.list_quotes p {
+		font: 14px "Light";
+		margin-bottom: 20px;
+	}
+	 
+	/**********************/
+	
+	
+	/**** start page ******/
+	
+	.show_bl {
+        width: 50%;
+    }
+	.mod_t {
+        line-height: 20px!important;
+	}
+	.under_t {
+	    line-height: 17px!important;
+	}
+	.back_tr {
+        padding: 15px 14px;
+    }
+	#colorPicker {
+		margin: 30px auto 0;
+		width: 50%;
+    }
+	.ever_steps_choose_left {
+        padding-bottom: 30px;
+    }
+	.part_of_scraf {
+	    margin: 30px 0;
+		padding: 20px 0 0 20px;
+	}
+	.title_ever_st_ch {
+        font: 22px "Light";
+		text-align: center;
+    }   
+    .title_ever_st_ch img {
+        margin-right: 5px;
+    }
+	.title_par_of_scr {
+        font: 16px "Light";
+    }
+	.list_other_ch_bl > li {
+		display: inline-block;
+	}
+	.area_other_instr {
+        font: 12px "Light";
+        text-indent: 15px;
+    }
+	.select_or_bl {
+		padding: 30px 0 0;
+		text-align: center;
+	}
+	.other_ch_bl {
+		margin: 20px auto 0;
+	    text-align: center;
+	}
+	
+	/***********************/
+	
+	
+	/**** about page *******/
+	
+	.about_back_bl {
+		background: rgba(0, 0, 0, 0) url("../images/about/back_ab.jpg") no-repeat -800px top;
+		height: 620px;
+    }
+	
+	/***********************/
+	
+	
+	/**** cart page *******/
+	
+	.bl_font a {
+		font: 14px "Zapfino-reg";
+		height: 50px;
+		word-spacing: -6px;
+		margin-top: 10px;
+    }
+	.list_hex li:first-child {
+		position: relative;
+		top: 0px;
+	}
+	.bl_font a span {
+        top: 17px;
+	}
+	.list_hex {
+        top: 10px;
+    }
+	.bl_select select {
+        top: 22px;
+    }
+	.snip_num_good {
+       top: 20px;
+    }
+	.bl_price p {
+       top: 25px;
+	}
+	.field_snip {
+		font: 12px "ubuntu";
+		height: 24px;
+		margin: 0 1px;
+		width: 30px;
+    }
+	.cart_count_minus, .cart_count_plus {
+        font: 20px "ubuntu";
+        top: 2px;
+    }
+	.border_cart {
+	    margin-bottom: 0;
+	}
+	.enter_cupon_bl {
+	    width: 36%;
+	}
+	.enter_cupon_bl {
+		padding: 10px 10px;
+		text-align: left;
+    }
+	.appl_coup {
+        margin: 10px 0 0;
+    }
+	.total_amount_bl {
+        padding-top: 10px;
+    }
+	.list_add_anth_scr > li {
+		display: inline-block;
+		margin: 0 10px;
+    }
+	.lifted_anoter {
+        margin: 10px auto;
+    }
+	.bl_td_padd td {
+        padding: 5px;
+    }
+	.enter_cupon_bl input[type="text"] {
+	    margin-left: 7px;
+		width: 130px;
+	}
+	.appl_coup {
+        margin: 10px 0 10px 7px;
+		width: 128px;
+    }
+	
+	
+	/**********************/
+
+}
+
+
+
+@media (min-width: 380px ) and (max-width: 480px) {
+
+     
+	/**** main page ***/
+	.top_bl_ac_who_cart > div {
+        padding: 6px 5px;
+    }
+	.ever_bl_top a, .cart_price a {
+        font: 9pt "Light";
+    }
+	.cart_price a {
+        font: 9pt "Light";
+    }
+	.mail_bl a {
+        font-size: 16px;
+    }
+	.navbar-header {
+	    background: #c9b899 ;
+	}
+	.top_menu > li:first-child a {
+		padding-left:15px;
+	}
+	.navbar-nav > li:last-child {
+		float: none;
+	}
+	.resset_pad {
+        padding: 0 10px;
+    }
+	.title_cr_uniq {
+        font: 16pt "Light";
+    }
+	.carousel-control {
+		height: 65px;
+		top: 34%;
+		width: 35px;
+    }
+	.carousel-control.left img, .carousel-control.right img {
+		position: relative;
+		top: 13px;
+	}
+	.lifted {
+		margin: 25px auto 20px;
+		position: relative;
+		width: 320px;
+    }
+	.ever_steps {
+		padding-bottom: 50px;
+	}
+	.title_how_it_works {
+        font: 35px "Light";
+        margin-top: 20px;
+    }
+	.bl_logo {
+        text-align: center;
+    }
+	.padding_logo {
+        padding: 20px 0;
+    }
+	.social_bl {
+        top: 7px;
+		float: none;
+		text-align: center;
+    }
+	.text_logo a {
+        font: 28pt "Light";
+    }
+	.top_menu > li a {
+        font: 13pt "Light";
+    }
+	.under_questions_bl {
+		margin: 40px auto 0;
+	    width: 60%;
+    }
+	.text_ever_slider {
+        font: 12pt "Light";
+		top: 10px;
+		right: 50px;
+    } 
+	.title_video {
+		font: 25px "Light";
+		margin: 10px 0;
+    }
+	.video_bl_prod iframe {
+        height: 300px;
+    }
+	.video_bl {
+		padding: 10px 0;
+		text-align: center;
+    }
+	.samples_bl {
+        height: 460px;
+    }
+	.descr_scarves {
+        margin-top: 30px;
+    }
+	.insta_block {
+        padding: 30px 0 40px;
+    }
+	.title_scr {
+        font: 28px "Light";
+    }
+	.full_inf_scr {
+		font: 15px "Light";
+		margin-top: 20px;
+    }
+	.title_reviews {
+        font: 22px "Light";
+		margin-bottom: 20px;
+    }
+	.round_img {
+		border-radius: 50%;
+		width: 100px;
+	}
+	.rev_user_about {
+		margin-left: 110px;
+		padding: 0 20px;
+	}
+	.descr_lib_bl p {
+        margin: 15px !important;
+    }
+	.lifted_2 {
+		margin: 25px auto;
+		position: relative;
+		width: 270px;
+    }
+	.img_lib_bl {
+        padding: 20px;
+    }
+	.titlle_read_libr {
+        font: 30px "Bold";
+    }
+	.block_read_bout {
+        height: 308px;
+        padding: 13px;
+    }
+	.rev_user_about p {
+        padding: 15px 10px;
+		line-height: 20px;
+    }
+	.name_under_quest {
+        font: 25px "Light";
+    }
+	.bl_ins {
+		height: 200px;
+		margin-bottom: 30px;
+    }
+	.any_bl_lib table,.any_bl_lib table tbody,.any_bl_lib table tbody tr{
+	    display: block;
+	}
+	.quest_photo img {
+		display: inline;
+	}
+	.footer_menu > li {
+        margin: 0 8px;
+    }
+	.footer_menu > li a {
+        font: 12pt "Light";
+    }
+	.logo_footer {
+        font: 28pt "Light";
+    }
+	.group_soc_foot {
+		margin-top: 6px;
+	}
+	.foot_social {
+        text-align: center;  
+    }
+	.owl-buttons {
+	    display: none;
+	}
+	
+	/******************/
+	
+	
+	/**** WHOLESALERS *****/
+	
+	/*----- popup -----*/
+	
+	.popup_answ_site {
+		left: 50%;
+		margin: -320px 0 0 -180px;
+		padding: 40px 35px;
+		position: fixed;
+		top: 50%;
+		width: 360px;
+		z-index: 900;
+    }
+	.fill_aplic {
+        font: 16px "Light";
+    }
+	.send_answ_form textarea {
+        height: 180px;
+    }
+	
+	/*-----------------*/
+	
+	.text_ever_slider_who {
+		font: 12pt "Light";
+		left: 70px;
+    }
+	.quote_bl {
+		height: 484px;
+		margin-top:30px;
+		padding: 30px 0;
+    }
+	.list_quotes p {
+		font: 16px "Light";
+		margin-bottom: 20px;
+    }
+	.lifted_3 {
+		margin: 20px auto 20px;
+		width: 340px;
+    }
+	.some_items {
+		margin-top: 40px;
+	}
+	.descr_ever_item p {
+		font: 16px "Light";
+		margin: 10px 0 0;
+	    line-height: 18px;
+    }
+	.ever_link_items {
+	    text-align: center;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.ever_link_items img {
+	    display: inline;
+		margin-top: 10px;
+	}
+	#owl-demo-2 {
+	    text-align: center;
+	}
+	#owl-demo-2 img {
+	    display: inline;
+	}
+	.carousel-control_who {
+		height: 65px;
+		top: 34%;
+		width: 35px;
+    }
+	.carousel-control_who.left img, .carousel-control_who.right img {
+		position: relative;
+		top: 13px;
+    }
+	.list_quotes p {
+		font: 14px "Light";
+		margin-bottom: 10px;
+	}
+	 
+	/**********************/
+	
+	/**** start page ******/
+	
+	.show_bl {
+        width: 60%;
+    }
+	.mod_t {
+        line-height: 20px!important;
+	}
+	.under_t {
+	    line-height: 17px!important;
+	}
+	.back_tr {
+        padding: 15px 14px;
+    }
+	#colorPicker {
+		margin: 30px auto 0;
+		width: 60%;
+    }
+	.ever_steps_choose_left {
+        padding-bottom: 30px;
+    }
+	.part_of_scraf {
+	    margin: 30px 0;
+		padding: 20px 0 0 20px;
+	}
+	.title_ever_st_ch {
+        font: 22px "Light";
+		text-align: center;
+    }   
+    .title_ever_st_ch img {
+        margin-right: 5px;
+    }
+	.title_par_of_scr {
+        font: 16px "Light";
+    }
+	.list_other_ch_bl > li {
+		display: inline-block;
+	}
+	.area_other_instr {
+        font: 12px "Light";
+        text-indent: 15px;
+    }
+	.select_or_bl {
+		padding: 30px 0 0;
+		text-align: center;
+	}
+	.other_ch_bl {
+		margin: 20px auto 0;
+	    text-align: center;
+	}
+	.resst_left {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.lifted_yes_no {
+        width: 260px;
+    } 
+	.lifted_yes_no input {
+	    font-size: 22px;
+	}
+	
+	/***********************/
+	
+	/**** about page *******/
+	
+	.about_back_bl {
+		background: rgba(0, 0, 0, 0) url("../images/about/back_ab.jpg") no-repeat -800px top;
+		height: 680px;
+    }
+	.info_ab_us p {
+		font: 14px "Light";
+		margin-bottom: 20px;
+    }
+	
+	/***********************/
+	
+	
+	/**** cart page *******/
+	
+	.bl_font a {
+		font: 14px "Zapfino-reg";
+		height: 50px;
+		word-spacing: -6px;
+		margin-top: 10px;
+    }
+	.list_hex li:first-child {
+		position: relative;
+		top: 0px;
+	}
+	.bl_font a span {
+        top: 17px;
+	}
+	.list_hex {
+        top: 5px;
+    }
+	.bl_select select {
+        top: 22px;
+    }
+	.snip_num_good {
+       top: 20px;
+    }
+	.bl_price p {
+       top: 25px;
+	}
+	.field_snip {
+		font: 12px "ubuntu";
+		height: 24px;
+		margin: 0 1px;
+		width: 30px;
+    }
+	.cart_count_minus, .cart_count_plus {
+        font: 20px "ubuntu";
+        top: 2px;
+    }
+	.border_cart {
+	    margin-bottom: 0;
+	}
+	.enter_cupon_bl {
+	    width: 41%;
+	}
+	.enter_cupon_bl {
+		padding: 9px;
+		text-align: left;
+    }
+	.appl_coup {
+        margin: 10px 0 0;
+    }
+	.total_amount_bl {
+        padding-top: 10px;
+    }
+	.list_add_anth_scr > li {
+		display: inline-block;
+		margin: 0 10px;
+    }
+	.lifted_anoter {
+        margin: 10px auto;
+    }
+	.bl_td_padd td {
+        padding: 5px;
+    }
+	.enter_cupon_bl input[type="text"] {
+	    margin-left: 0px;
+		width: 130px;
+	}
+	.appl_coup {
+        margin: 10px 0 10px 0px;
+		width: 128px;
+    }
+	
+	
+	/**********************/
+
+
+}
+
+
+@media (min-width: 80px ) and (max-width: 380px) {
+
+     
+	/**** main page ***/
+	.top_bl_ac_who_cart > div {
+        padding: 6px 5px!important;
+    }
+	.ever_bl_top a, .cart_price a {
+        font: 7pt "Light";
+    }
+	.cart_price a {
+        font: 7pt "Light";
+    }
+	.mail_bl a {
+        font-size: 12px;
+    }
+	.navbar-header {
+	    background: #c9b899 ;
+	}
+	.top_menu > li:first-child a {
+		padding-left:15px;
+	}
+	.navbar-nav > li:last-child {
+		float: none;
+	}
+	.resset_pad {
+        padding: 0 10px;
+    }
+	.title_cr_uniq {
+        font: 16pt "Light";
+    }
+	.carousel-control {
+		height: 65px;
+		top: 30%;
+		width: 35px;
+    }
+	.carousel-control.left img, .carousel-control.right img {
+		position: relative;
+		top: 13px;
+	}
+	.lifted {
+		margin: 25px auto 20px;
+		position: relative;
+		width: 260px;
+    }
+	.lifted a { 
+	    font-size: 22px;
+	}
+	.ever_steps {
+		padding-bottom: 20px;
+	}
+	.title_how_it_works {
+        font: 35px "Light";
+        margin-top: 20px;
+    }
+	.sample_st {
+		font: 18pt "Light";
+		margin-top: 10px;
+	}
+	.ever_steps img {
+		display: inline;
+		margin-top: 20px;
+    }
+	.bl_logo {
+        text-align: center;
+    }
+	.padding_logo {
+        padding: 20px 0;
+    }
+	.social_bl {
+        top: 7px;
+		float: none;
+		text-align: center;
+    }
+	.text_logo a {
+        font: 28pt "Light";
+    }
+	.top_menu > li a {
+        font: 13pt "Light";
+    }
+	.under_questions_bl {
+		margin: 20px auto 0;
+	    width: 60%;
+    }
+	.text_ever_slider {
+        font: 10pt "Light";
+		top: 10px;
+		right: 50px;
+		margin: 0;
+    } 
+	.title_video {
+		font:18px "Light";
+		margin: 10px 0;
+    }
+	.descr_under_quest {
+        font: 15px "Light";
+    }
+	.title_insta {
+		font: 18px "Light";
+		margin-bottom: 20px;
+    }
+	.questions_block {
+        padding: 35px 0;
+    }
+	.video_bl_prod iframe {
+        height: 200px;
+    }
+	.video_bl {
+		padding: 10px 0;
+		text-align: center;
+    }
+	.samples_bl {
+        height: 560px;
+		margin-top: 20px;
+    }
+	.descr_scarves {
+        margin-top: 30px;
+    }
+	.insta_block {
+        padding: 30px 0 40px;
+    }
+	.title_scr {
+        font: 28px "Light";
+    }
+	.full_inf_scr {
+		font: 15px "Light";
+		margin-top: 20px;
+    }
+	.title_reviews {
+        font: 18px "Light";
+		margin-bottom: 20px;
+    }
+	.round_img {
+		border-radius: 50%;
+		width: 100px;
+	}
+	.rev_user_about {
+		margin-left: 110px;
+		padding: 0 20px;
+	}
+	.descr_lib_bl p {
+        margin: 15px !important;
+    }
+	.lifted_2 {
+		margin: 25px auto;
+		position: relative;
+		width: 270px;
+    }
+	.img_lib_bl {
+        padding: 20px;
+    }
+	.titlle_read_libr {
+        font: 30px "Bold";
+    }
+	.block_read_bout {
+        height: 308px;
+        padding: 13px;
+    }
+	.rev_user_about p {
+        font-size: 12px;
+		line-height: 15px;
+		padding: 10px 10px;
+    }
+	.name_under_quest {
+        font: 18px "Light";
+    }
+	.bl_ins {
+		height: 200px;
+		margin-bottom: 30px;
+    }
+	.any_bl_lib table,.any_bl_lib table tbody,.any_bl_lib table tbody tr{
+	    display: block;
+	}
+	.quest_photo img {
+		display: inline;
+	}
+	.footer_menu > li {
+        margin: 0 8px;
+    }
+	.footer_menu > li a {
+        font: 12pt "Light";
+    }
+	.logo_footer {
+        font: 28pt "Light";
+    }
+	.group_soc_foot {
+		margin-top: 6px;
+	}
+	.foot_social {
+        text-align: center;  
+    }
+	.owl-buttons {
+	    display: none;
+	}
+	
+	/******************/
+	
+	/**** WHOLESALERS *****/
+	
+	/*----- popup -----*/
+	
+	.popup_answ_site {
+		left: 50%;
+		margin: -330px 0 0 -130px;
+		padding: 40px 15px;
+		position: fixed;
+		top: 50%;
+		width: 260px;
+		z-index: 900;
+    }
+	.fill_aplic {
+        font: 16px "Light";
+    }
+	.send_answ_form input[type="text"] {
+        width: 230px;
+    }
+	.send_answ_form textarea {
+        height: 180px;
+    }
+	
+	/*-----------------*/
+	
+	.text_ever_slider_who {
+		font: 10pt "Light";
+		top: 10px;
+		left: 60px;
+    }
+	.quote_bl {
+		height: 570px;
+		margin-top:30px;
+		padding: 30px 0;
+    }
+	.list_quotes p {
+		font: 16px "Light";
+		margin-bottom: 20px;
+    }
+	.lifted_3 {
+		margin: 20px auto 20px;
+		width: 340px;
+    }
+	.some_items {
+		margin-top: 40px;
+	}
+	.descr_ever_item p {
+		font: 16px "Light";
+		margin: 10px 0 0;
+	    line-height: 18px;
+    }
+	.ever_link_items {
+	    text-align: center;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.ever_link_items img {
+	    display: inline;
+		margin-top: 10px;
+	}
+	#owl-demo-2 {
+	    text-align: center;
+	}
+	#owl-demo-2 img {
+	    display: inline;
+	}
+	.carousel-control_who {
+		height: 65px;
+		top: 34%;
+		width: 35px;
+    }
+	.carousel-control_who.left img, .carousel-control_who.right img {
+		position: relative;
+		top: 13px;
+    }
+	.list_quotes p {
+		font: 14px "Light";
+		margin-bottom: 10px;
+	}
+	.lifted_3,.lifted_4 {
+		margin: 20px auto;
+		width: 260px;
+    }
+	.lifted_3 a,.lifted_4 a {
+	    font-size: 22px;
+	}
+	 
+	/**********************/
+	
+	
+	/**** start page ******/
+	
+	.title_make_scr {
+		font: 25px "Light";
+		margin: 10px 0 20px;
+    }
+	.show_bl {
+        width: 80%;
+    }
+	.mod_t {
+        line-height: 20px!important;
+	}
+	.under_t {
+	    line-height: 17px!important;
+	}
+	.back_tr {
+        padding: 15px 14px;
+    }
+	#colorPicker {
+		margin: 30px auto 0;
+		width: 80%;
+    }
+	.ever_steps_choose_left {
+        padding-bottom: 30px;
+    }
+	.part_of_scraf {
+	    margin: 30px 0;
+		padding: 20px 0 0 20px;
+	}
+	.title_ever_st_ch {
+        font: 18px "Light";
+		text-align: center;
+    }   
+    .title_ever_st_ch img {
+        margin-right: 5px;
+    }
+	.title_par_of_scr {
+        font: 16px "Light";
+    }
+	.list_other_ch_bl > li {
+		display: inline-block;
+	}
+	.area_other_instr {
+        font: 12px "Light";
+        text-indent: 15px;
+    }
+	.select_or_bl {
+		padding: 30px 0 0;
+		text-align: center;
+	}
+	.other_ch_bl {
+		margin: 20px auto 0;
+	    text-align: center;
+	}
+	.resst_left {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.lifted_yes_no {
+        width: 260px;
+    } 
+	.lifted_yes_no input {
+	    font-size: 22px;
+	}
+	
+	/***********************/
+	
+	/**** about page *******/
+	
+	.title_libr {
+	    text-align: center;
+		font: 25px "Light";
+		margin: 10px 0 20px;
+	}
+	.about_back_bl {
+		background: rgba(0, 0, 0, 0) url("../images/about/back_ab.jpg") no-repeat -900px top;
+		height: 640px;
+    }
+	.info_ab_us {
+		padding: 10px 0;
+	}
+	.info_ab_us p {
+		font: 13px "Light";
+		margin-bottom: 20px;
+    }
+	
+	/***********************/
+	
+	/**** library third ***/
+	
+	.lifted_7 {
+		float: right;
+		margin: 30px 10px 30px 0;
+		min-width: 260px;
+		position: relative;
+	}
+	.lifted_7 a {
+	    font-size: 14px;
+	}
+	
+	/**********************/
+	
+	
+	/**** ideas page ******/
+	
+	.title_ideas {
+		font: 25px "Light";
+		margin: 10px 0 20px;
+		text-align: center;
+	}
+	
+	/*********************/
+	
+	
+	/**** cart page *******/
+	
+	.bl_font a {
+		font: 14px "Zapfino-reg";
+		height: 50px;
+		word-spacing: -6px;
+		margin-top: 10px;
+    }
+	.list_hex li:first-child {
+		position: relative;
+		top: 0px;
+	}
+	.bl_font a span {
+        top: 17px;
+	}
+	.list_hex {
+        top: 5px;
+    }
+	.bl_select select {
+        top: 22px;
+    }
+	.snip_num_good {
+       top: 20px;
+    }
+	.bl_price p {
+       top: 25px;
+	}
+	.field_snip {
+		font: 12px "ubuntu";
+		height: 24px;
+		margin: 0 1px;
+		width: 30px;
+    }
+	.cart_count_minus, .cart_count_plus {
+        font: 20px "ubuntu";
+        top: 2px;
+    }
+	.border_cart {
+	    margin-bottom: 0;
+	}
+	.enter_cupon_bl {
+	    width: 51%;
+	}
+	.enter_cupon_bl {
+		padding: 10px 10px;
+		text-align: left;
+    }
+	.appl_coup {
+        margin: 10px 0 0;
+    }
+	.total_amount_bl {
+        padding-top: 10px;
+    }
+	.list_add_anth_scr > li {
+		display: inline-block;
+		margin: 0 10px;
+    }
+	.lifted_anoter {
+        margin: 10px auto;
+		width: 180px;
+    }
+	.lifted_anoter a {
+        font: 12px "Bold";
+    }
+	.bl_td_padd td {
+        padding: 5px;
+    }
+	
+	.enter_cupon_bl input[type="text"] {
+	    margin-left: 0px;
+		width: 130px;
+	}
+	.appl_coup {
+        margin: 10px 0 10px 0px;
+		width: 128px;
+    }
+	
+	/**********************/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

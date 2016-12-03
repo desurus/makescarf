@@ -1,0 +1,79 @@
+jQuery(function($){
+	var constructor_form = $('#constructor_form');
+	var updateLivePreview = function() {
+		var data = $(constructor_form).serializeArray();	
+		var font, font_color, background_color = false;
+		$(data).each(function(i, o){
+			if(o.name == 'constructor[font]')
+				font = o.value;
+			if(o.name == 'constructor[font_color]')
+				font_color = o.value;
+			if(o.name == 'constructor[background_color]')
+				background_color = o.value;
+		});	
+
+		$('.m-preview').find('span').css({
+			'font-family': font	
+		});
+		$('.m-preview').find('span').css({
+			'color': '#' + font_color	
+		});
+		$('.m-preview').css({
+			'background-color': '#' + background_color.toString()
+		});
+	}
+	$(document).click(function(e){
+		var parents = $(e.target).parents();
+		var hide_pckr = true;
+		$(parents).each(function(i, el){
+			if($(el).hasClass('colorpicker')) hide_pckr = false;
+			if($(el).hasClass('multicolor')) hide_pckr = false;
+		});
+		if(hide_pckr) $('#font_color_select_custom_trigger').fadeOut();
+	});
+	$('.font_color_select').change(function(){
+		if($(this).attr('checked')) {
+			if($(this).val() == 'custom')//Show a color select
+				$('#font_color_select_custom_trigger').fadeIn();
+			else {
+				//Thsi is some present value so we just set it, and trigger an preview update
+				$('#constructor_font_color').val($(this).val());
+				$('#constructor_font_color').trigger('change');
+			}
+		}
+	});
+	$('#constructor_form').find('input[type="radio"]').change(function(){
+		updateLivePreview();
+	});
+	$('#font_color_select_custom_trigger').appendTo('body');
+	console.log($('#font_color_select_custom').offset());
+	$('#font_color_select_custom_trigger').css({
+		left: $('#font_color_select_custom').offset().left + 70 + 'px',
+		top: $('#font_color_select_custom').offset().top  + 'px'
+	});
+	$('#font_color_select_custom_trigger').ColorPicker({
+		flat: true,
+		onShow: function(colorpicker) {
+		},
+		onHide: function(colorpicker) {
+		},
+		onChange: function(hsb, hex, rgb) {
+			$('#constructor_font_color').val(hex);
+			$('#constructor_font_color').trigger('change');
+		}
+	});
+	$('#constructor_font_color').change(function(){
+		updateLivePreview();
+	});
+	$('select, .f-styler').styler();
+	updateLivePreview();
+	//Small hack in scarf styles selectors:
+	$('.wide-select').each(function(){
+		if($(this).is(':checked')) {
+			$(this).parent().addClass('back_white');
+		}		
+	});
+
+	//$('.font_color_select').trigger('change');
+});
+/**** back_white back_white ****/

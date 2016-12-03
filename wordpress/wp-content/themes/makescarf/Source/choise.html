@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+	<!--[if lte IE 6 ]><script type="text/javascript">window.location.href="ie6_close/index_ru.html";</script><![endif]-->
+	<!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="css/all_ie.css"><![endif]-->
+    <!--[if lt IE 10]><script type="text/javascript" src="js/pie.js"></script><![endif]-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/colorpicker.js"></script>
+    <script type="text/javascript" src="js/eye.js"></script>
+    <script type="text/javascript" src="js/layout.js?ver=1.0.2"></script>
+    <script type="text/javascript" src="js/jquery.reveal.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+    <header id="header" class="header clearfix">
+    	<div class="topTabs">
+    		<span class="oneTabs"><a href="#">My account</a></span>
+    		<span class="twoTabs"><a href="#">WHOLESALERS</a></span>  		
+    	</div>
+    	<div class="topSocPanel">
+    		<ul>
+    			<li class="socIcon1"><a href="#"></a></li>
+    			<li class="socIcon2"><a href="#"></a></li>
+    			<li class="socIcon3"><a href="#"></a></li>
+    		</ul>
+    		<span>Join us here:</span>
+    	</div>
+		<div class="logo"><a href="#"><img src="img/logo.png" alt="" /></a></div>
+		<nav>
+			<a href="#" class="asideBtn"></a>
+			<ul class="menu">
+				<li><a href="#">Home<span></span></a></li>
+				<li><a href="#">About<span></span></a></li>      
+				<li><a href="#">Samples<span></span></a></li>     
+				<li class="current-menu-item"><a href="#">Scarves ideas<span></span></a></li>     
+				<li><a href="#">Help (FAQ)<span></span></a></li>       
+				<li><a href="#">Cart<span></span></a></li>
+			</ul>
+		</nav>
+    </header><!-- /header-->
+    <section id="middle">
+        <div id="container" class="clearfix">
+			<div class="content">
+				<form action="form.php" method="" class="choiseForm">
+					<div class="choiseWrap">
+						<p class="stepTitle"><span class="chtOne"></span>CHOOSE COLOR </p>
+						<p class="stepTitle"><span class="chtTwo"></span>CHOOSE FONT & FONT COLOR</p>
+						<div class="wrapLivePreview">
+							<div class="livePreview">
+								<p><a href="#">Scarf semple live-preview:</a></p>
+								<div style="background: #7e665c url(img/prepgviewBg.j) 0 0 repeat;; padding: 25px 0 0 38px; height: 229px; overflow: hidden; color: #fff; font: 18px/22px MyUnderwood, serif; text-align: justify;">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+								</div>
+							</div>
+						</div>
+						<div class="choiseBox">							
+							<div class="choiseFont">
+								<p>Choose color<span class="inactiveCheck activeCheck"></span></p>
+								<p class="fontVariants">
+									<span class="varOne"><input  type="radio" name="1" checked /><label>Hard Writing</label></span>
+									<span class="varTwo"><input  type="radio" name="1" /><label>Modern</label></span>
+									<span class="varThree"><input  type="radio" name="1" /><label>Book Tipewriting</label></span></p>
+								<p>Font color:<span class="inactiveCheck"></span></p>
+								<ul class="colorFont">
+									<li>
+										<label>
+											<img src="img/color1.png" alt="" />
+											White
+										</label>
+										<input  type="radio" name="2" checked />
+									</li>
+									<li>
+										<label>
+											<img src="img/color2.png" alt="" />
+											Black
+										</label>
+										<input  type="radio" name="2" />
+									</li>
+									<li>
+										<label><a href="#" class="big-link" data-reveal-id="myModal" data-animation="none">
+											<img src="img/color3.png" alt="" />
+											Select color
+										</a></label>
+										<input  type="radio" name="2" />
+									</li>
+								</ul>
+							</div>
+							<div id="myModal" class="reveal-modal">
+								<p>Choose color of</p>
+								<p class="colorpickerHolder"></p>
+								<a class="close-reveal-modal">&#215;</a>
+							</div>
+							<p> Choose color of scarf's background:<span class="inactiveCheck activeCheck"></span></p>
+							<p class="colorpickerHolder"></p>
+						</div>
+					</div>
+					<div class="popularStyles">
+						<p class="popularTitle"><a href="#">Popular styles:</a></p>
+						<p>
+							<a href="#" data-background-color="#cc9384" data-color="#ffffff"><img src="img/style1.png" alt="" /></a>
+							<a href="#" data-background-color="#507a66" data-color="#d9e021"><img src="img/style2.png" alt="" /></a>
+							<a href="#" data-background-color="#8c6239" data-color="#d6c3ad"><img src="img/style3.png" alt="" /></a>
+							<a href="#" data-background-color="#7ec4ff" data-color="#534741"><img src="img/style4.png" alt="" /></a>
+							<a href="#" data-background-color="#c6e043" data-color="#ffffff"><img src="img/style5.png" alt="" /></a>
+							<a href="#" data-background-color="#b8bfcc" data-color="#93278f"><img src="img/style6.png" alt="" /></a>
+							<a href="#" data-background-color="#998675" data-color="#42210b"><img src="img/style7.png" alt="" /></a>
+							<a href="#" data-background-color="#ffffff" data-color="#857264"><img src="img/style8.png" alt="" /></a>
+							<a href="#" data-background-color="#c69c6d" data-color="#fceebd"><img src="img/style9.png" alt="" /></a>
+							<a href="#" data-background-color="#1b1464" data-color="#ffffff"><img src="img/style10.png" alt="" /></a>
+						</p>
+					</div>
+					<div class="bottonSteps">
+						<p class="stepTitle"><span class="chtThree"></span>Submit text  </p>
+						<p>Submit your text here or choose from our “scarves text idias”:<span class="inactiveCheck"></span></p>
+						<p class="wrapPanelSub">
+							<span class="libreryBtn"><a href="#">Select text in TEXT LIBRARY</a></span>
+							<span class="or">or</span>
+							<textarea></textarea>
+						</p>
+						<p class="stepTitle">Artwork Approval </p>
+						<p class="innerSpan">Send me my artwork file to approval:<span class="inactiveCheck"></span>
+							<span><input  type="radio" name="3" checkbox /><label>Yes</label></span>
+							<span><input  type="radio" name="3" /><label>No</label></span>
+						</p>
+						<p class="stepTitle">Other instructions</p>
+						<p class="noneArt">None entered <a href="#">Edit instructions</a></p>
+						<p><textarea></textarea></p>
+					</div>
+					<div class="wrapBtn">
+						<button type="submit" class="btn">Proceed to Shipping info</button>
+					</div>
+				</form>
+				<div class="textIdeas">
+					<span class="titleIdeas"></span>
+					<a href="#" class="more"><span>see more ideas</span> ></a>
+					<ul>
+						<li><a href="#">
+							<img src="img/ideas1.png" alt="" />
+							<span>Insprirational quotes</span></a></li>
+						<li><a href="#">
+							<img src="img/ideas2.png" alt="" />
+							<span>Favorite Part of the book</span></a></li>
+						<li><a href="#">
+							<img src="img/ideas3.png" alt="" />
+							<span>Set of characteristic words </span></a></li>
+						<li><a href="#">
+							<img src="img/ideas4.png" alt="" />
+							<span>Love quotes</span></a></li>
+						<li><a href="#">
+							<img src="img/ideas5.png" alt="" />
+							<span>Friendship</span></a></li>
+						<li><a href="#">
+							<img src="img/ideas6.png" alt="" />
+							<span>Poetry</span></a></li>
+					</ul>
+				</div>
+			</div>
+        </div><!-- #container-->
+    </section><!-- #middle-->
+</div><!-- #wrapper -->
+
+<footer id="footer" class="footer">
+	<div class="footerLogo"><a href="#"><img src="img/footer-logo.png" alt="" /></a></div>
+	<ul>
+		<li><a href="#">Home</a>|</li>    
+		<li><a href="#">About</a>|</li>      
+		<li><a href="#">Samples</a>|</li>     
+		<li><a href="#">Scarves ideas</a>|</li>    
+		<li><a href="#">Help (FAQ)</a>|</li>    
+		<li><a href="#">Cart</a></li>
+	</ul>
+	<p class="copy">© 2012 All rights reserved.</p>
+</footer><!-- #footer -->
+</body>
+</html>

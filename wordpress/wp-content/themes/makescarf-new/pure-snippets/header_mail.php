@@ -1,0 +1,1 @@
+<a href="mailto:shell@hosted.pw"><i class="fa fa-envelope-o"></i></a>

@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.btn,.topTabs span,.topSocPanel ul li,.topSocPanel span,.menu li,.menu a,.textIdeas ul li,.footer ul li,.stepTitle span,.inactiveCheck,.colorFont li,.innerSpan .inactiveCheck,.main .flexslider p{
+	*zoom :1; 
+	*display: inline;
+}
+
+input[type="text"] {line-height: 16px;}
+.search input[type="text"] {line-height: 26px;}
+
+.btn {-pie-background: linear-gradient(#f3f3f3, #ccc);}
+.btn {filter: none;}
+
+.clearfix {*zoom: 1;}

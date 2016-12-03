@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+	<!--[if lte IE 6 ]><script type="text/javascript">window.location.href="ie6_close/index_ru.html";</script><![endif]-->
+	<!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="css/all_ie.css"><![endif]-->
+    <!--[if lt IE 10]><script type="text/javascript" src="js/pie.js"></script><![endif]-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <style>
+.stForm p{
+	padding-bottom: 15px;
+	overflow: hidden;
+	font-size: 16px;
+}
+.stForm p.stFormTitle{
+	font: 28px/22px Times, Georgea, serif;
+	padding: 10px 0 20px;
+}
+.stForm p.stMiniTitle{
+	font: 22px/18px Times, Georgea, serif;
+	color: #8b9aa7;
+}
+.stForm p span{
+	width: 210px;
+	float: left;
+}
+.stForm p span.stSmallInp{width: 80px;}
+.stForm p span.stSmallInp input[type="text"]{width: 70px;}
+.stForm p span.hitsShow{
+	clear: left;
+	padding: 4px 0 0;
+}
+.stForm p span.hitsShow input{
+	position: relative;
+	top: -2px;
+}
+.stForm p span.hitsShow a{
+	text-decoration: none;
+	color: #1481cc;
+}
+.stForm p span.hitsShow a:hover{text-decoration: underline;}
+.stForm p input[type="text"]{
+	display: block;
+	margin: 5px 0 0;
+	width: 190px;
+	padding: 0 5px;
+	height: 28px;
+	border: 1px solid #b3b3b3;
+}
+.stForm p input[type="submit"]{
+	position: relative;
+	background: #009ae6;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin: 10px 0;
+	padding: 10px 20px;
+	border: 1px solid #0576ae;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: 0 1px #0576ae;
+	font-size: 18px;
+	-webkit-box-shadow: -4px 0 2px -2px #d1d1d1; 
+	-moz-box-shadow: -4px 0 2px -2px #d1d1d1; 
+	box-shadow: 0 4px 2px -2px #d1d1d1;
+}
+    </style>
+</head>
+
+<body>
+
+<div id="wrapper">
+    <header id="header" class="header clearfix">
+    	<div class="topTabs">
+    		<span class="oneTabs"><a href="#">My account</a></span>
+    		<span class="twoTabs"><a href="#">WHOLESALERS</a></span>  		
+    	</div>
+    	<div class="topSocPanel">
+    		<ul>
+    			<li class="socIcon1"><a href="#"></a></li>
+    			<li class="socIcon2"><a href="#"></a></li>
+    			<li class="socIcon3"><a href="#"></a></li>
+    		</ul>
+    		<span>Join us here:</span>
+    	</div>
+		<div class="logo"><a href="#"><img src="img/logo.png" alt="" /></a></div>
+		<nav>
+			<a href="#" class="asideBtn"></a>
+			<ul class="menu">
+				<li class="current-menu-item"><a href="#">Home<span></span></a></li>
+				<li><a href="#">About<span></span></a></li>      
+				<li><a href="#">Samples<span></span></a></li>     
+				<li><a href="#">Scarves ideas<span></span></a></li>     
+				<li><a href="#">Help (FAQ)<span></span></a></li>       
+				<li><a href="#">Cart<span></span></a></li>
+			</ul>
+		</nav>
+    </header><!-- /header-->
+    <section id="middle">
+        <div id="container" class="clearfix">
+			<div class="content">
+				<form class="stForm" action="form.php">
+					<p class="stFormTitle">Title first</p>
+					<p class="stMiniTitle">Title small</p>
+					<p>
+						<span>First Name <input type="text" /></span>
+						<span>Last Name <input type="text" /></span>
+					</p>
+					<p><span>Company <input type="text" /></span></p>
+					<p><span>Shiping Address 
+						<input type="text" />
+						<input type="text" /></span></p>
+					<p>
+						<span>City<input type="text" /></span>
+						<span class="stSmallInp">Zip code
+							<input type="text" /></span></p>
+					<p class="stMiniTitle">Title small next</p>
+					<p>
+						<span>Phone Number <input type="text" /></span>
+						<span>Backup Number <input type="text" /></span>
+						<span class="hitsShow">
+							<input type="checkbox" name="1" />
+							<label>Get text messages</label>
+							(<a href="#">?</a>)
+						</span>
+					</p>
+					<p><span>Email <input type="text" /></span></p>
+					<p><span>Your website <input type="text" /></span></p>
+					<p><input type="submit" value="Procees to Payment" /></p>
+			</div>
+        </div><!-- #container-->
+    </section><!-- #middle-->
+</div><!-- #wrapper -->
+
+<footer id="footer" class="footer">
+	<div class="footerLogo"><a href="#"><img src="img/footer-logo.png" alt="" /></a></div>
+	<ul>
+		<li><a href="#">Home</a>|</li>    
+		<li><a href="#">About</a>|</li>      
+		<li><a href="#">Samples</a>|</li>     
+		<li><a href="#">Scarves ideas</a>|</li>    
+		<li><a href="#">Help (FAQ)</a>|</li>    
+		<li><a href="#">Cart</a></li>
+	</ul>
+	<p class="copy">© 2012 All rights reserved.</p>
+</footer><!-- #footer -->
+</body>
+</html>

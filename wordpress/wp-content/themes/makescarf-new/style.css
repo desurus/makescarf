@@ -1,0 +1,65 @@
+/*
+Theme Name: MakeScarf New 
+Theme URI: http://makescarf.com
+Description: A new modern theme for makescarf.com website. 
+Author: Shell
+Author URI: # 
+Version: 1.0
+License: -
+License URI: 
+ */
+/* Just a fixes...*/
+.top_bl_ac_who_cart div {
+	display: inline-block;
+	padding: 6px 20px;
+	border-left: 1px solid #d8dadc;
+}
+.top_bl_ac_who_cart div:last-child {
+	padding: 6px 0px 6px 20px;
+}
+form.send_form_cont {
+	margin: 0 !important;
+}
+.container.default h2 {
+	font: 35px "Light";
+	color: #b8a784;
+	text-transform: uppercase;
+}
+.container.default p {
+	font-family: 'Arial', sans-serif!important;
+}
+.contact_back_bl .col-lg-7 {
+	padding-left: 0;
+}
+.lifted_send br {
+	display: none;
+}
+.lifted_send img {
+	display: none;
+}
+input[type="email"] {
+	font: 14px "Light";
+	color: #b4b5b8;
+	text-transform: uppercase;
+	text-indent: 10px;
+	width: 280px;
+	height: 28px;
+	border: 1px solid #c3c4c7;
+}
+
+.form-signin {
+	width: 40%;
+}
+.form-signin input, .form-signin button {
+	margin: 5px;
+}
+.table > tbody > tr > td {
+	padding: 8px !important;
+}
+.scarf_cart_preview {
+	width: 240px;
+	height: 100px;
+	overflow: hidden;
+	padding: 5px;
+	border: 1px solid gray;
+}

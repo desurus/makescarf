@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body.blue {
+	padding: 0!important;
+	border-radius: 5px;
+}
+body {
+	padding: 0;
+	font-family: Tahoma;
+	font-size: 14px;
+}
+
+label {
+	margin-right: 5px;
+}
+
+p {
+	padding: 5px;
+}
+
+.template_name {
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.pm_path {
+	font-style: italic;
+}
+
+.pm_strong {
+	font-weight: bold;
+}
+
+.pm_widget_settings_description {
+	padding-top: 2px;
+	margin-top: 0;
+}
+
+.pm_widget_settings_form h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.pm_widget_name_line {
+	font-weight: normal;
+	font-style: italic;
+}
+
+.widget_settings_item_description {
+	color: gray;
+}
+
+.pm_iframe_wrap {
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 60px;
+}
+
+.popup-caption {
+	text-shadow: 0 0 2px #8b8b8b;
+	padding: 8px 15px;
+	color: #ffffff;
+	font-size: 20px;
+	display: block;
+	background: rgb(122,188,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(122,188,255,1) 0%, rgba(96,171,248,1) 44%, rgba(64,150,238,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
+}
+
+.pm_widget_settings_description {
+	margin: 20px 15px 10px 15px;
+}
+
+.pm_iframe_wrap label {
+	width: 148px;
+	display: inline-block;
+	margin-left: 15px;
+	color: #696565;
+}
+
+input,
+select,
+textarea {
+	color: #696565;
+	vertical-align: top;
+	padding: 4px 10px;
+	border-radius: 3px;
+	border: 1px solid rgb(122,188,255);
+	box-sizing: border-box;
+	font-family: Tahoma;
+}
+
+textarea {
+	padding: 10px;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+	box-shadow: 0 0 15px rgb(122,188,255);
+	outline: 1px solid rgb(122,188,255);
+}
+
+input[type="button"],
+input[type="submit"] {
+	display: inline-block;
+	width: auto;
+	background-color: transparent;
+	padding: 5px 30px;
+	transition: background-color 300ms linear, color 200ms linear;
+	border: 1px solid rgb(122,188,255);
+	color: #696565;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover {
+	background-color: rgb(122,188,255);
+	cursor: pointer;
+	border: 1px solid rgb(122,188,255);
+	box-shadow: inset 1px 1px 0 rgb(255, 255, 255), inset -1px -1px 0 rgb(255, 255, 255), inset -1px 1px 0 rgb(255, 255, 255), inset 1px -1px 0 rgb(255, 255, 255);
+	color: #000;
+}
+
+input[type="button"]:active,
+input[type="submit"]:active {
+	background-color: rgb(0, 127, 255);
+	color: #fff;
+	outline: none;
+}
+
+.widget_settings_item_description {
+	display: block;
+	text-align: left;
+	margin-left: 163px;
+	margin-top: 5px;
+	color: #ff9999;
+	font-size: 12px;
+}
+
+.pm_iframe_wrap input,
+.pm_iframe_wrap select {
+	width: 300px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.pm_iframe_wrap textarea {
+	width: 300px;
+	min-height: 80px;
+	display: inline-block;
+	resize: vertical;
+}
+
+.pm_iframe_wrap input[type="button"],
+.pm_iframe_wrap input[type="submit"] {
+	width: auto;
+}
+
+.button-holder {
+	text-align: right;
+	padding-right: 15px;
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+
+
+
+

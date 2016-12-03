@@ -1,0 +1,1 @@
+<input type="search" placeholder="<? echo $this->args()->get('placeholder', 'Быстрый поиск по сайту'); ?>" name="s" value="<? echo $data->get('search_query'); ?>" id="<? echo $this->args()->get('id'); ?>" class="<? echo $this->args()->get('class'); ?>" />

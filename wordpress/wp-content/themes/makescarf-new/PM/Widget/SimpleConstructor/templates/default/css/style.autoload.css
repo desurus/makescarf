@@ -1,0 +1,65 @@
+#font_color_select_custom_trigger {
+	position: absolute;
+	top: 0px;	
+	z-index: 1000;
+	display: none;
+}
+
+.decor-line {
+	border-right: 1px solid #d8dadc;
+}
+.font-color-box,
+.font-style-box {
+	min-height: 190px;
+}
+
+.font-color-box .white .jq-radio {
+	background-color: white;
+	border: 1px solid #d8dadc;
+	box-sizing: content-box;
+}
+.font-color-box .biege .jq-radio {
+	background-color: #e0d9cc;
+	border: 1px solid #d8dadc;
+	box-sizing: content-box;
+}
+
+div.m-box {
+	margin-top: 30px;
+	margin-left: -15px;
+	background-color: #F6F6F6;
+	padding-top: 50px;
+}
+body .mp-title {
+	font-family: 'Light';
+	text-align: left;
+	font-size: 35px;
+	padding-left: 20px;
+}
+
+
+@media screen and (max-width: 1199px) {
+	body .m-title  {
+		margin: 0 -10px;
+	}
+	
+}
+@media screen and (max-width: 991px) {
+	body .m-title  {
+		margin: 0 -10px;
+		font-size: 16px;
+	}
+	body .mp-title {
+		font-size: 26px;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+	.decor-line {
+		border-right: 0;
+	}
+	div.m-box {
+		padding-top: 19px;
+	}
+}

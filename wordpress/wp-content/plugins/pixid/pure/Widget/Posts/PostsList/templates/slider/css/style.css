@@ -1,0 +1,21 @@
+.owl-wrapper-outer,.owl-controls {
+	position: absolute;
+}
+.owl-pagination {
+	display: none;
+}
+.owl-controls {
+	top: 0;
+	left: 0;
+	z-index: 99999;
+}
+.owl-buttons {
+	width: 100%;
+}
+.owl-controls {
+	display: inline-block;
+	width: 100%;
+}
+.owl-buttons .owl-next {
+	
+}

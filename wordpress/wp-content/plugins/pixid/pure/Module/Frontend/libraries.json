@@ -1,0 +1,13 @@
+{ 
+	"featherlight": {
+		"js_files": [
+			"#WAMT_ROOT#js/featherlight/src/featherlight.js"
+		],
+		"css_files": [
+			"#WAMT_ROOT#js/featherlight/src/featherlight.css"	
+		],
+		"deps": [
+			"jquery"	
+		]
+	}
+}

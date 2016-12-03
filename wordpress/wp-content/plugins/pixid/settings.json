@@ -1,0 +1,27 @@
+{
+        "suppress_view_warnings": false,
+	"autoload_modules": [
+		
+	],
+
+        "FS": {
+                "track_permissions": true,
+                "files_mode": 775,
+                "directories_mode": 775
+        },
+        "Debug": {
+                "track_errors": false,
+                "log_errors": false
+        },
+        "InlineEditor": {
+                "enabled": true,
+                "detect_content_css": true
+        },
+        "Iframe": {
+                "track_iframe_template": true
+        },
+        "Multilingual": {
+                "auto_snippets": false,
+                "snippets_locale": "ru-RU"
+        }
+}

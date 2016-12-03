@@ -1,0 +1,95 @@
+.lifted_send br {
+	display: none;
+}
+.lifted_send img {
+	display: none;
+}
+.co {
+}
+.co form {
+	margin: 0;
+}
+.co .constructor-sidebar .backgr_bl {
+	background: #fff;
+}
+.other_ch_bl label {
+	display: inline;
+	max-width: 100%;
+}
+.other_ch_bl .back_tr {
+	padding: 0;
+}
+.constructor .container {
+	margin-left: 0;
+	padding-left: 0;
+}
+.constructor .container .col-xs-9 {
+	padding-left: 0;
+}
+.container.scarves_ideas {
+	padding-left: 0;
+}
+.constructor .container > div {
+	padding: 0 !important; 
+	margin: 0;
+}
+/* Save button */
+.constructor-save {
+    padding: 95px 0 40px 0;
+}
+.save-button-wrapp {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 197px;
+    height: 33px;
+    border-top: 1px solid #a1a0a3;
+    border-bottom: 1px solid #a1a0a3;
+    border-left: 1px solid #d7d7d8;
+    border-right: 1px solid #d7d7d8;
+    text-align: center;
+}
+.save-button-wrapp:before,
+.save-button-wrapp:after {
+    bottom: 4px;
+    right: 0;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
+    content: "";
+    height: 1px !important;
+    position: absolute;
+    transform: rotate(4deg);
+    width: 47%;
+    z-index: -2;
+}
+.save-button-wrapp:before {
+    transform: rotate(-4deg);
+    left: 0;
+}
+.save-button {
+    display: block;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #bdbcbe;
+    border-bottom: 1px solid #bdbcbe;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    background-color: #fff;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
+    outline: 1px solid #69676c;
+    font: 17px "Bold";
+    cursor: pointer;
+}
+.save-button:hover {
+    opacity: .8!important;
+}
+.container.constructor-border {
+	margin-left: 0;
+	padding-left: 0;
+}
+#wp-scarf-editor-wrap {
+	width: 780px;
+}
+.constructor_layout.layout_vertical {
+	margin: 0 auto !important;
+}

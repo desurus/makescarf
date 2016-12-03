@@ -1,0 +1,19 @@
+.pm_visual_block {
+	width: 35px;
+	height: 20px;
+	display: inline-block;
+	padding: 2px;
+	text-transform:uppercase;
+	margin: 2px 5px;
+	text-align: center;
+	font-family: monospace;
+	color: black;
+	cursor: pointer;
+	background-color: rgba(172, 150, 44, 0.8);	
+}
+.pm_visual_block:hover {
+	background-color: rgba(172, 150, 44, 0.2);
+}
+.pm_visual_block_php {
+		
+}

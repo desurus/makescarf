@@ -1,0 +1,23 @@
+version: '2'
+
+services:
+    
+    mysql:
+        image: mariadb
+        ports:
+            - 3306
+        environment:
+            MYSQL_ROOT_PASSWORD: makescarf
+
+    wordpress:
+        image: makescarf_wordpress
+        build: .
+        depends_on: 
+            - mysql
+        ports:
+            - 8081:80
+        environment:
+            WORDPRESS_DB_PASSWORD: makescarf
+        volumes:
+            - /Users/sasha/Projects/makescarf.com/wordpress/:/var/www/html
+ 

@@ -1,0 +1,82 @@
+.pm-wrapper {
+	border: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.pm-inline-wrap {
+    border: 0 none;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    float: none;
+    display: inherit;
+    clear: none;
+}
+.pm-highlight {
+	position: absolute;
+	display: none;
+	/*background-color: rgba(0, 0, 0, 0.4);*/
+	color: black;
+	/*border: 1px solid black;*/
+	cursor: pointer;
+	z-index: 2147483;
+	pointer-events: none;
+	border: 2px solid #fff;
+	box-shadow: 0 0 5px #000, inset 0 0 5px #000;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+.pm-wrapper .pm-highlight:hover {
+	display: block;
+}
+.pm-storage {
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+.pm-icon {
+	font-size: 32px !important;
+	color: rgba(0, 0 , 0 , 0.6);	
+}
+.pm-icon {
+	font-size: 32px !important;
+	color: rgba(0, 0, 0, 0.6);	
+}
+.pm-icon:hover {
+	color: rgba(3, 160, 236, 0.6);
+
+}
+.pm-buttons {
+	position: absolute;
+	z-index: 2147483;
+	top: 5px;
+	left: 5px;
+	pointer-events: auto;
+}
+.pm-buttons ul {
+	margin: 0;
+	padding: 0;
+
+}
+.pm-buttons ul li {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	padding: 2px;		
+	background-color:#f2f5f6;;
+}
+.pm-icon.dashicons-before::before {
+	font-size: 32px !important;
+}
+
+.pm-error {
+	color: red;
+	font-family: monospace;
+}
+
+span.template_name {
+	font-weight: bold;
+	font-style: italic;
+}

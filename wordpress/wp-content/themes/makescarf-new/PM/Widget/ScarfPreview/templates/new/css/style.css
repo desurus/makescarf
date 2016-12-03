@@ -1,0 +1,15 @@
+.scarf_preview {
+	width: 75px;
+	height: 75px;
+	border: 1px solid gray;
+	overflow: hidden;
+	padding: 4px;
+}
+.scarf_preview.layout_horizontal {
+	width: 200px;
+	height: 100px;
+}
+.scarf_preview.layout_vertical {
+	width: 100px;
+	height: 200px;
+}

@@ -1,0 +1,3 @@
+[submodule "wp-content/plugins/pixid"]
+	path = wp-content/plugins/pixid
+	url = ssh://git@git.hosted.pw/pixid.git
