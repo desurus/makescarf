@@ -62,7 +62,7 @@ if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() )
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 resset_pad" >
 				    <div class="social_bl" >
 
-					    <ul class="all_social_top" >
+					    <ul class="all_social_top">
 						    <li>
 								<div class="join_us" >
 									<span>join us here</span>
@@ -77,7 +77,7 @@ if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() )
 					</div>
 				</div> 
 			</div>
-			<div class="row" >
+			<div class="row" id="desktop-menu">
 				<div class="navbar navbar-inverse navbar-static-top" >
 					<div class="navbar-header" >
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu" >

@@ -140,4 +140,10 @@ jQuery(document).ready(function() {
 			jQuery(this).css({"background":"#000"});
 		});
 
+        // toggle mobile main menu on the top bar
+        jQuery(document).on('click', '#toggle-mobile-menu', function(e){
+            e.preventDefault();
+            jQuery('.mobile-menu-wrapper').toggle();
+        });
+
     });

@@ -1358,6 +1358,22 @@ div.addresses {
 #add_payment_method .checkout .col-2 h3#ship-to-different-address, .woocommerce-checkout .checkout .col-2 h3#ship-to-different-address {
 	border: 2px solid transparent;
 }
+.mobile-menu-wrapper {
+	position: relative;
+	top: 6px;
+	width: 200px;
+	background: #f6f6f6;
+	color: #504f53;
+	font: 10pt "Light";
+	padding:10px 15px;
+	display: none;
+}
+.mobile-menu-wrapper li {
+	padding-top: 15px;
+}
+.mobile-menu-toggler {
+	display: none;
+}
 
 @media screen and (max-width: 1199px) {
 	
@@ -1375,6 +1391,9 @@ div.addresses {
 	}
 }
 @media screen and (max-width: 991px) {
+	#desktop-menu .navbar-inverse .navbar-nav > li > a {
+		font-size: 16px;
+	}
 	.cap-tabs>li {
 		margin: 0;
 	}
@@ -1407,8 +1426,17 @@ div.addresses {
 	.bo-col {
 		margin-bottom: 20px;
 	}
+	h1.text_logo a {
+		font-size: 39pt;
+	}
 }
 @media screen and (max-width: 767px) {
+	#desktop-menu, #contacts-envelope-button {
+		display: none;
+	}
+	.mobile-menu-toggler {
+		display: block;
+	}
 	.l-wrap {
 		margin-left: 0;
 		margin-bottom: 30px;
@@ -1459,6 +1487,9 @@ div.addresses {
 	.maker .select_or_bl {
 		margin-right: 0;
 	}
+	.cart_account_bl > .container > .row {
+		margin: 0;
+	}
 	
 }
 @media screen and (max-width: 479px) {
@@ -1476,6 +1507,9 @@ div.addresses {
 	}
 	.maker .btn-style {
 		width: 100%;
+	}
+	.top_bl_ac_who_cart div {
+		padding: 6px 7px;
 	}
 }
 

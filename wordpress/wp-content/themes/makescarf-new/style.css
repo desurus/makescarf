@@ -11,7 +11,7 @@ License URI:
 /* Just a fixes...*/
 .top_bl_ac_who_cart div {
 	display: inline-block;
-	padding: 6px 20px;
+	padding: 6px 15px;
 	border-left: 1px solid #d8dadc;
 }
 .top_bl_ac_who_cart div:last-child {
