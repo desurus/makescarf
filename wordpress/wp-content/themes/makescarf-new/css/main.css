@@ -1426,8 +1426,11 @@ div.addresses {
 	.bo-col {
 		margin-bottom: 20px;
 	}
-	h1.text_logo a {
+	h1.text_logo a, a.logo_footer {
 		font-size: 39pt;
+	}
+	.owl-controls {
+		display: none !important;
 	}
 }
 @media screen and (max-width: 767px) {
@@ -1490,7 +1493,21 @@ div.addresses {
 	.cart_account_bl > .container > .row {
 		margin: 0;
 	}
-	
+	.carousel-control {
+		top: 17%;
+	}
+	.ever_review .img_user_name {
+		display: none;
+	}
+	.ever_review .rev_user_about {
+		margin-left: 0;
+	}
+	.footer_menu {
+		text-align: left;
+	}
+	.footer_menu > li {
+		display: block;
+	}
 }
 @media screen and (max-width: 479px) {
 	.t-history thead td {
