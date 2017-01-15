@@ -13,6 +13,7 @@ class NMakeScarf_Theme extends \PureLib\Wordpress\Theme {
 		add_action('parse_query', array($this, 'parse_query'));
 		add_action( 'add_meta_boxes', array($this, 'register_scarf_metabox') );
 		add_action( 'wp_print_scripts', array($this, 'remove_password_strenght'), 100 );
+		//add_action( 'template_redirect', array($this, 'redirect_form_home'));
 	}
 	public function remove_password_strenght() {
 		if ( wp_script_is( 'wc-password-strength-meter', 'enqueued' ) ) {
@@ -63,6 +64,23 @@ class NMakeScarf_Theme extends \PureLib\Wordpress\Theme {
 			}
 		}
 	}
+
+	/**
+	 * Redirects from home page to page slug orivuded.
+	 *
+	 */
+	public function redirect_form_home() {
+		// where are we going?
+		$redirect_to = get_site_url() . '/wholesalers/';
+
+		if (!is_home() && !is_front_page()) {
+        	return;
+		}
+
+    	wp_redirect($redirect_to, 301);
+    	exit;
+	}
+
 	public function customize_register($wp_customizer) {
 		$customizer = new \PureLib\Wordpress\Customizer($wp_customizer);
 		$customizer->add_section('makescarf', 'Makescarf', 'Basic settings directly for makescarf.com project with scarf editor.');		

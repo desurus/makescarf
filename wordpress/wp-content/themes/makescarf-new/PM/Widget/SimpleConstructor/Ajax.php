@@ -47,18 +47,20 @@ class Ajax extends \Pure\Module\Ajax\Handler {
 		$constructor = $this->Session()->get('constructor');	
 		$constructor = $this->request()->get('constructor');
 		$constructor['body'] = $constructor['content'];
+
+		//error_log(print_r($constructor, true));
 			
 		$this->widget()->save_in_cookie($constructor);
 
-		if(!is_user_logged_in()) {
+		/*if(!is_user_logged_in()) {
 			$html = $this
 				->widget()
 				->fetch_template('login.php');
 
 			$response = new \Pure\Response\JSON(0, "Registration required", array("html" => $html));
 			$response->send();
-		} else {	
-			$user = PM()->User()
+		} else {*/	
+			/*$user = PM()->User()
 				->get_current_user();
 			
 			if(!empty($constructor['product_id'])) {
@@ -74,7 +76,7 @@ class Ajax extends \Pure\Module\Ajax\Handler {
 						$response->send();
 					}
 				}
-			}
+			}*/
 			//Try to get existing product from hash	
 			$post_title = $this->make_product_title($constructor);
 
@@ -113,6 +115,8 @@ class Ajax extends \Pure\Module\Ajax\Handler {
 				}
 			}
 
+			//error_log(print_r($product_ID, true));
+
 			$this->Session()
 				->set('current_scarf_id', $product_ID);
 
@@ -123,8 +127,7 @@ class Ajax extends \Pure\Module\Ajax\Handler {
 					'post_status' => 'publish'
 				));	
 
-				PM()->Woo()
-					->add_to_cart($product_ID);
+				PM()->Woo()->add_to_cart($product_ID);
 
 				setcookie("makescarf_constructor", "", 0, "/", $_SERVER['HTTP_HOST']);
 				$html = $this->widget()->fetch_template('added_to_cart.php');
@@ -137,7 +140,7 @@ class Ajax extends \Pure\Module\Ajax\Handler {
 				$response->send();	
 			}	
 			//PM()->module("Iframe")->footer();	
-		}
+		//}
 		exit();
 	}	
 	public function print_preview_action() {

@@ -216,6 +216,8 @@ class WC_Cart {
 	 * @param bool $set (default: true)
 	 */
 	private function set_cart_cookies( $set = true ) {
+		error_log(print_r("adding to cart", true));
+		error_log(print_r($set, true));
 		if ( $set ) {
 			wc_setcookie( 'woocommerce_items_in_cart', 1 );
 			wc_setcookie( 'woocommerce_cart_hash', md5( json_encode( $this->get_cart_for_session() ) ) );
@@ -987,10 +989,10 @@ class WC_Cart {
 					) ), $cart_item_key );
 				}
 
-				if ( did_action( 'wp' ) ) {
+				/*if ( did_action( 'wp' ) ) {
 					$this->set_cart_cookies( ! $this->is_empty() );
-				}
-
+				}*/
+				$this->set_cart_cookies( ! $this->is_empty() );
 				do_action( 'woocommerce_add_to_cart', $cart_item_key, $product_id, $quantity, $variation_id, $variation, $cart_item_data );
 
 				return $cart_item_key;
