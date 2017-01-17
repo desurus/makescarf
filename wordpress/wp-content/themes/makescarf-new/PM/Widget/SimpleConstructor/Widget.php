@@ -31,10 +31,10 @@ class Widget extends \Pure\Widget {
 				'style' => "color: #010101; font-family: 'ZapfinoForteL'; font-size: 32px;",
 				'font_family' => 'ZapfinoForteL'
 			),
-			'Century Gothic' => array(
+			'Light' => array(
 				'title' => 'Modern',
-				'style' => "color: #676666; font-family: 'Century Gothic'; font-size: 22px; font-weight: 400;",
-				'font_family' => 'Century Gothic'
+				'style' => "color: #676666; font-family: 'Light'; font-size: 22px; font-weight: 400;",
+				'font_family' => 'Light'
 			),
 			'MyUnderwood' => array(
 				'title' => 'Book Typewriting',
@@ -47,7 +47,7 @@ class Widget extends \Pure\Widget {
 			$buttons = array();	
 			return $buttons;
 		});
-		$content = "Our distinctive scarves offer unlimited ways to thank clients, reward employees and even advertise your company in unique ways. Through our convenient customization process and dedicated customer service, you can arrange for large orders and enjoy a first-class process from start-to-finish. Our distinctive scarves offer unlimited ways to thank clients, reward employees and even advertise your company in unique ways. Through our convenient customization process and dedicated customer service, you can arrange for large orders and enjoy a first-class process from start-to-finish. Our distinctive scarves offer unlimited ways to thank clients, reward employees and even advertise your company in unique ways. Through our convenient customization process and dedicated customer service, you can arrange for large orders and enjoy a first-class process from start-to-finish.";
+		$content = "Please type your text here ...";
 		$selected_posts = $this->get_request()->get('select_posts', array());
 		if(!empty($selected_posts) && is_array($selected_posts)) {
 			$content = "";

@@ -93,7 +93,7 @@ jQuery(function($){
 					
 					<div class="row">
 						<div class="col-sm-12">
-							<div class="m-box">
+							<div class="m-box" style="padding: 10px; height: auto;">
 								<div class="row">
 									<div class="col-sm-4">
 										<span class="mp-title">part of Scarf preview</span>
