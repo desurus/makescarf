@@ -40,7 +40,7 @@ class Module extends \Pure\Module {
 	public function fake_wp_footer() {
 		global $wp_filter;
 		$wp_filter['_wp_footer'] = $wp_filter['wp_footer'];	
-		farray_shift($wp_filter['_wp_footer']);
+		array_shift($wp_filter['_wp_footer']);
 		$wp_filter["wp_footer"] = array();
 		echo "<!--#PM_WP_FOOTER#-->";
 	}
