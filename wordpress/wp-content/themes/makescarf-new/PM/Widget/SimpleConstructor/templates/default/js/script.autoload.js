@@ -21,6 +21,12 @@ jQuery(function($){
 		$('.m-preview').css({
 			'background-color': '#' + background_color.toString()
 		});
+
+		if (font == 'ZapfinoForteL') {
+			$('.m-preview > span').css('font-size', '27px');
+		} else {
+			$('.m-preview > span').css('font-size', '13px');
+		}
 	}
 	$(document).click(function(e){
 		var parents = $(e.target).parents();
