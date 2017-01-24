@@ -132,7 +132,8 @@ jQuery(function($){
 	'tinymce' => array(	
 		'plugins' => '' 
 	),
-	'textarea_name' => 'constructor[content]'	
+	'textarea_name' => 'constructor[content]',
+	'editor_height' => 250
 )); ?>	
 						</div>
 					</div>
