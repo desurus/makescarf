@@ -205,6 +205,10 @@
     box-shadow:1px 1px 1px gray;
 }
 
+.fep-message-toggle-all {
+	cursor: pointer;
+}
+
 .fep-align-left{ text-align:left;}
 .fep-align-right{ text-align:right;}
 .fep-align-centre{ text-align:center;}

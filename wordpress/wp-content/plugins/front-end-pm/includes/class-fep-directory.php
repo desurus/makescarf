@@ -42,13 +42,8 @@ class Fep_Directory
 			return;
 	  	}
 	  
-	  $page = !empty( $_GET['feppage']) ? absint( $_GET['feppage'] ) - 1: 0;
-	  
-      $offset = $page * fep_get_option('user_page', 50 );
-	  
 	  $args = array(
 			'number' => fep_get_option('user_page', 50 ),
-			//'offset' => $offset, //paged support since wordpress version 4.4, so not using for backword compatibility
 			'paged'	=> !empty($_GET['feppage']) ? absint($_GET['feppage']): 1,
 			'orderby' => 'display_name',
 			'order' => 'ASC',

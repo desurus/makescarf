@@ -26,7 +26,8 @@ if( $messages->have_posts() ) {
 						$par[] = fep_get_userdata( $participant, 'display_name', 'id' );
 					} ?>
 					<div class="fep-message-title-heading"><?php the_title(); ?></div>
-					<div class="fep-message-title-heading participants"><?php _e("Participants", 'front-end-pm'); ?>: <?php echo implode( ', ', $par ); ?></div>
+					<div class="fep-message-title-heading participants"><?php _e("Participants", 'front-end-pm'); ?>: <?php echo apply_filters( 'fep_filter_display_participants', implode( ', ', $par ), $par ); ?></div>
+					<div class="fep-message-toggle-all fep-align-right"><?php _e("Toggle Messages", 'front-end-pm'); ?></div>
 				<?php } ?>
 				
 				<div class="fep-message-title">

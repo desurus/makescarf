@@ -4,6 +4,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
+?>
+<div class="fep-directory-search-form-div">
+	<form id="fep-directory-search-form" action="">
+	<input type="hidden" name="fepaction" value="directory" />
+	<input type="text" name="search" class="fep-directory-search-form-field" value="<?php isset( $_GET["search"] ) ? esc_attr_e( $_GET["search"] ): ""; ?>" />
+	<input type="hidden" name="feppage" value="1" />
+	<input type="submit" class="fep-directory-search-form-submit" value="<?php _e("Search Users", "front-end-pm"); ?>" />
+	</form>
+</div>
+<?php 
 if (! empty( $user_query->results)){ ?>
   
 	<div class="fep-table fep-odd-even">

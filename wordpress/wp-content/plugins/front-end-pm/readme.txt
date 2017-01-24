@@ -3,7 +3,7 @@ Contributors: shamim51
 Tags: front end pm,front-end-pm,pm,private message,personal message,front end,frontend pm,frontend,message,widget,plugin,sidebar,shortcode,page,email,mail,contact form, secure contact form, simple contact form,akismet check,akismet
 Donate link: https://www.paypal.me/hasanshamim
 Requires at least: 4.4
-Tested up to: 4.6.1
+Tested up to: 4.7
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -115,6 +115,13 @@ You can visit [Front End PM](https://www.shamimsplugins.com/wordpress/contact-us
 6. Security settings.
 
 == Changelog ==
+
+= 4.8 =
+
+* New feature, search users in directory
+* New feature, toggle all messages when view message
+* new filter hook fep_filter_display_participants added.
+* new filter hook fep_query_url_filter added.
 
 = 4.7 =
 
@@ -287,6 +294,13 @@ You can visit [Front End PM](https://www.shamimsplugins.com/wordpress/contact-us
 * Initial release.
 
 == Upgrade Notice ==
+
+= 4.8 =
+
+* New feature, search users in directory
+* New feature, toggle all messages when view message
+* new filter hook fep_filter_display_participants added.
+* new filter hook fep_query_url_filter added.
 
 = 4.7 =
 

@@ -243,13 +243,16 @@ function fep_action_url( $action = '', $arg = array() ) {
 
 function fep_query_url( $action, $arg = array() ) {
       
-	  $args = array( 'fepaction' => $action );
-	  $args = array_merge( $args, $arg );
-	  
-	  if ( fep_page_id() )
-	  return esc_url( add_query_arg( $args, get_permalink( fep_page_id() ) ) );
-	  else
-	  return esc_url( add_query_arg( $args ) );
+	$args = array( 'fepaction' => $action );
+	$args = array_merge( $args, $arg );
+	
+	if ( fep_page_id() ) {
+		$url = esc_url( add_query_arg( $args, get_permalink( fep_page_id() ) ) );
+	} else {
+		$url = esc_url( add_query_arg( $args ) );
+	}
+	
+	return apply_filters( 'fep_query_url_filter', $url, $args );
 }
 
 if ( !function_exists('fep_create_nonce') ) :
@@ -372,29 +375,19 @@ function fep_get_new_announcement_button(){
 	return $newmgs;
 }
 
-    function fep_get_version()
-    {
-      $plugin_data = implode('', file(FEP_PLUGIN_DIR."front-end-pm.php"));
-      if (preg_match("|Version:(.*)|i", $plugin_data, $version))
-        $version = trim($version[1]);
-		if (preg_match("|dbVersion:(.*)|i", $plugin_data, $dbversion))
-        $dbversion = trim($dbversion[1]);
-		if (preg_match("|metaVersion:(.*)|i", $plugin_data, $metaversion))
-        $metaversion = trim($metaversion[1]);
-      return array('version' => $version, 'dbversion' => $dbversion, 'metaversion' => $metaversion);
-    }
-
 function fep_is_user_blocked( $login = '' ){
 	global $user_login;
 	if ( !$login && $user_login )
 	$login = $user_login;
 	
 	if ($login){
-	$wpusers = explode(',', str_replace(' ', '', fep_get_option('have_permission')));
+		$wpusers = explode(',', fep_get_option('have_permission') );
+		
+		$wpusers = array_map( 'trim', $wpusers );
 
-		if(in_array( $login, $wpusers))
+		if( in_array( $login, $wpusers) )
 		return true;
-		} //User not logged in
+	} //User not logged in
 	return false;
 }
 
@@ -404,11 +397,13 @@ function fep_is_user_whitelisted( $login = '' ){
 	$login = $user_login;
 	
 	if ($login){
-	$wpusers = explode(',', str_replace(' ', '', fep_get_option('whitelist_username')));
+	$wpusers = explode(',', fep_get_option('whitelist_username') );
+	
+	$wpusers = array_map( 'trim', $wpusers );
 
 		if(in_array( $login, $wpusers))
 		return true;
-		} //User not logged in
+	} //User not logged in
 	return false;
 }
 
