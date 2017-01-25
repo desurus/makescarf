@@ -28,7 +28,10 @@ jQuery(function($){
 			$('.m-preview > span').css('font-size', '13px');
 		}
 	}
-	$(document).click(function(e){
+	
+	
+
+	/*$(document).click(function(e){
 		var parents = $(e.target).parents();
 		var hide_pckr = true;
 		$(parents).each(function(i, el){
@@ -36,38 +39,44 @@ jQuery(function($){
 			if($(el).hasClass('multicolor')) hide_pckr = false;
 		});
 		if(hide_pckr) $('#font_color_select_custom_trigger').fadeOut();
-	});
+	});*/
 	$('.font_color_select').change(function(){
 		if($(this).attr('checked')) {
-			if($(this).val() == 'custom')//Show a color select
-				$('#font_color_select_custom_trigger').fadeIn();
-			else {
+			if($(this).val() == 'custom') {//Show a color select
+				//$('#font_color_select_custom-styler').click();
+				//$('#font_color_select_custom_trigger').fadeIn();
+			} else {
 				//Thsi is some present value so we just set it, and trigger an preview update
 				$('#constructor_font_color').val($(this).val());
 				$('#constructor_font_color').trigger('change');
 			}
 		}
 	});
+
+	$('.multicolor').spectrum({
+		//flat: true,
+		move: function(color) {
+			$('#constructor_font_color').val(color.toHex());
+			$('#constructor_font_color').trigger('change');
+		},
+		hide: function(color) {
+			$('#constructor_font_color').val(color.toHex());
+			$('#constructor_font_color').trigger('change');
+			$(this).val('custom');
+		},
+		//preferredFormat: "hex",
+	});
+	//$('.multicolor').spectrum('show');
 	$('#constructor_form').find('input[type="radio"]').change(function(){
 		updateLivePreview();
 	});
-	$('#font_color_select_custom_trigger').appendTo('body');
-	console.log($('#font_color_select_custom').offset());
+	/*$('#font_color_select_custom_trigger').appendTo('body');
+
 	$('#font_color_select_custom_trigger').css({
 		left: $('#font_color_select_custom').offset().left + 70 + 'px',
 		top: $('#font_color_select_custom').offset().top  + 'px'
-	});
-	$('#font_color_select_custom_trigger').ColorPicker({
-		flat: true,
-		onShow: function(colorpicker) {
-		},
-		onHide: function(colorpicker) {
-		},
-		onChange: function(hsb, hex, rgb) {
-			$('#constructor_font_color').val(hex);
-			$('#constructor_font_color').trigger('change');
-		}
-	});
+	});*/
+	
 	$('#constructor_font_color').change(function(){
 		updateLivePreview();
 	});
@@ -79,7 +88,6 @@ jQuery(function($){
 			$(this).parent().addClass('back_white');
 		}		
 	});
-
 	//$('.font_color_select').trigger('change');
 });
 /**** back_white back_white ****/

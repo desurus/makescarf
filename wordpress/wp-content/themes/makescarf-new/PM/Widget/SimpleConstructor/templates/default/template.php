@@ -1,6 +1,6 @@
 <?
-$this->include_css('jquery-colorpicker', get_template_directory_uri() . '/css/colorpicker.css');
-$this->include_js('jquery-colorpicker', get_template_directory_uri() . '/js/colorpicker.js', array('jquery-ui-draggable'));
+$this->include_css('jquery-colorpicker', get_template_directory_uri() . '/css/spectrum.css');
+$this->include_js('jquery-colorpicker', get_template_directory_uri() . '/js/spectrum.js');
 ?>
 <script type="text/javascript">
 jQuery(function($){
@@ -10,17 +10,18 @@ jQuery(function($){
 
 		$.ajax({
 			url: '<? echo $this->ajax_url('send_form'); ?>&',
-				data: data,
-				method: 'post',
-				dataType: 'json',
-				success: function(response) {
-					$('#constructor_form_result').html(response.data.html);
-					if(response.data.product_id)
-						$('#constructor_product_id').val(response.data.product_id);
-					$.fancybox({
-						href: '#constructor_form_result'
-					});
-				}
+			data: data,
+			method: 'post',
+			dataType: 'json',
+			success: function(response) {
+				window.location.href = '/cart/';
+				$('#constructor_form_result').html(response.data.html);
+				if(response.data.product_id)
+					$('#constructor_product_id').val(response.data.product_id);
+				/*$.fancybox({
+					href: '#constructor_form_result'
+				});*/
+			}
 		});
 
 
@@ -68,7 +69,6 @@ jQuery(function($){
 <label class="multicolor">
 <input class="f-styler font_color_select" type="radio" <? if(!empty($scarf_data['font_color']) && $scarf_data['font_color'] != '000000'): ?>checked="checked"<? endif; ?> name="constructor[font_color_select]" class="font_color_select" value="custom" id="font_color_select_custom">
 <span>color</span></label>
-<div id="font_color_select_custom_trigger"></div>
 								</div>
 							</div>
 						</div>
